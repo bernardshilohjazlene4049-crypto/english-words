@@ -1,0 +1,68 @@
+name: 每日自动更新 50 词词包
+
+on:
+  schedule:
+    # 北京时间每天 00:05（UTC 16:05）自动运行，更新当日 50 个必背单词
+    - cron: '5 16 * * *'
+  workflow_dispatch:
+    inputs:
+      date:
+        description: '指定日期 YYYY-MM-DD（留空默认今天北京时间）'
+        required: false
+        default: ''
+      count:
+        description: '每日单词数量（默认 50）'
+        required: false
+        default: '50'
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: daily-words-update
+  cancel-in-progress: false
+
+jobs:
+  update-daily-words:
+    name: 生成当日 50 词并发布上线
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 配置 Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: 运行每日 50 词自动更新脚本
+        run: |
+          ARGS="--count=${{ inputs.count || '50' }}"
+          if [ -n "${{ inputs.date }}" ]; then
+            ARGS="$ARGS --date=${{ inputs.date }}"
+          fi
+          node scripts/update-daily-words.mjs $ARGS
+
+      - name: 检查并提交更新
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add daily-words.json data/daily-schedule.json index.html
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "今日 50 词已是最新，无需重复提交。"
+          else
+            TODAY=$(TZ=Asia/Shanghai date +%F)
+            git commit -m "chore(daily): 自动更新 ${TODAY} 每日 50 词词包"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 触发 GitHub Pages 刷新发布
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api -X POST "repos/${{ github.repository }}/pages/builds" || true
