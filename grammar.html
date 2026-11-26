@@ -43,6 +43,8 @@ body.dark {
 }
 body[data-palette="ocean"] { --green: #0284c7; --green-deep: #0369a1; --soft: rgba(14,165,233,0.14); }
 body[data-palette="aurora"] { --green: #7c3aed; --green-deep: #6d28d9; --soft: rgba(139,92,246,0.15); }
+body.dark[data-palette="ocean"] { --green: #38bdf8; --green-deep: #7dd3fc; --soft: rgba(56,189,248,0.18); }
+body.dark[data-palette="aurora"] { --green: #a78bfa; --green-deep: #c4b5fd; --soft: rgba(167,139,250,0.18); }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body {
@@ -587,7 +589,7 @@ tr:last-child td { border-bottom: 0; }
     <h3>一、时态概念与可视化时间轴</h3>
     <p class="lead"><strong>时态</strong> = <span class="cloze" tabindex="0" role="button" title="点击显示/遮罩答案">动作发生的时间</span>（过去 / 现在 / 将来 / 过去将来）+ <span class="cloze" tabindex="0" role="button" title="点击显示/遮罩答案">动作所处的状态</span>（一般 / 进行 / 完成 / 完成进行）。</p>
     <div class="timeline-box" aria-label="英语核心时态时间轴">
-      <svg viewBox="0 0 860 190" class="timeline-svg">
+      <svg viewBox="0 0 920 202" class="timeline-svg">
         <defs>
           <linearGradient id="tlGrad" x1="0%" y1="0%" x2="100%" y2="0%">
             <stop offset="0%" stop-color="#0284c7"/>
@@ -599,37 +601,37 @@ tr:last-child td { border-bottom: 0; }
           </marker>
         </defs>
         <!-- Duration arcs -->
-        <path d="M 95 96 Q 170 28 245 96" fill="none" stroke="#0284c7" stroke-width="2.5" stroke-dasharray="5 4"/>
-        <text x="170" y="42" text-anchor="middle" class="tl-arc-lbl" fill="#0369a1">过去完成 had done（时段/先于过去）</text>
-        <path d="M 245 96 Q 355 24 465 96" fill="none" stroke="#059669" stroke-width="2.8"/>
-        <text x="355" y="34" text-anchor="middle" class="tl-arc-lbl" fill="#047857">现在完成 have/has done（过去→现在时段）</text>
-        <path d="M 465 96 Q 605 26 745 96" fill="none" stroke="#7c3aed" stroke-width="2.5" stroke-dasharray="5 4"/>
-        <text x="605" y="42" text-anchor="middle" class="tl-arc-lbl" fill="#6d28d9">将来完成 will have done（截止到将来）</text>
+        <path d="M 90 106 Q 175 40 260 106" fill="none" stroke="#0ea5e9" stroke-width="2.5" stroke-dasharray="5 4"/>
+        <text x="160" y="54" text-anchor="middle" class="tl-arc-lbl" fill="#0284c7">过去完成 had done（先于过去）</text>
+        <path d="M 260 106 Q 385 18 510 106" fill="none" stroke="#10b981" stroke-width="2.8"/>
+        <text x="395" y="28" text-anchor="middle" class="tl-arc-lbl" fill="#059669">现在完成 have/has done（过去→现在时段）</text>
+        <path d="M 510 106 Q 665 36 820 106" fill="none" stroke="#8b5cf6" stroke-width="2.5" stroke-dasharray="5 4"/>
+        <text x="690" y="52" text-anchor="middle" class="tl-arc-lbl" fill="#7c3aed">将来完成 will have done（截止到将来）</text>
         <!-- Main axis -->
-        <line x1="36" y1="96" x2="824" y2="96" stroke="url(#tlGrad)" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+        <line x1="36" y1="106" x2="884" y2="106" stroke="url(#tlGrad)" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
         <!-- Nodes -->
-        <circle cx="95" cy="96" r="8" fill="#0284c7"/>
-        <text x="95" y="124" text-anchor="middle" class="tl-node">过去的过去</text>
-        <text x="95" y="143" text-anchor="middle" class="tl-sub">had done</text>
+        <circle cx="90" cy="106" r="8" fill="#0284c7"/>
+        <text x="90" y="135" text-anchor="middle" class="tl-node">过去的过去</text>
+        <text x="90" y="154" text-anchor="middle" class="tl-sub">had done</text>
 
-        <circle cx="245" cy="96" r="9" fill="#0ea5e9"/>
-        <text x="245" y="124" text-anchor="middle" class="tl-node">过去（时点）</text>
-        <text x="245" y="143" text-anchor="middle" class="tl-sub">did / was doing</text>
+        <circle cx="260" cy="106" r="9" fill="#0ea5e9"/>
+        <text x="260" y="135" text-anchor="middle" class="tl-node">过去（时点）</text>
+        <text x="260" y="154" text-anchor="middle" class="tl-sub">did / was doing</text>
 
-        <circle cx="465" cy="96" r="11" fill="#059669"/>
-        <circle cx="465" cy="96" r="17" fill="none" stroke="#10b981" stroke-width="2" opacity="0.45"/>
-        <text x="465" y="126" text-anchor="middle" class="tl-node" font-weight="800">现在 NOW</text>
-        <text x="465" y="145" text-anchor="middle" class="tl-sub">do/does · am/is/are doing</text>
+        <circle cx="510" cy="106" r="11" fill="#059669"/>
+        <circle cx="510" cy="106" r="17" fill="none" stroke="#10b981" stroke-width="2" opacity="0.45"/>
+        <text x="510" y="137" text-anchor="middle" class="tl-node" font-weight="800">现在 NOW</text>
+        <text x="510" y="156" text-anchor="middle" class="tl-sub">do/does · am/is/are doing</text>
 
-        <circle cx="645" cy="96" r="9" fill="#6366f1"/>
-        <text x="645" y="124" text-anchor="middle" class="tl-node">将来（时点）</text>
-        <text x="645" y="143" text-anchor="middle" class="tl-sub">will do</text>
+        <circle cx="690" cy="106" r="9" fill="#6366f1"/>
+        <text x="690" y="135" text-anchor="middle" class="tl-node">将来（时点）</text>
+        <text x="690" y="154" text-anchor="middle" class="tl-sub">will do</text>
 
-        <circle cx="745" cy="96" r="8" fill="#7c3aed"/>
-        <text x="745" y="124" text-anchor="middle" class="tl-node">将来某时前</text>
-        <text x="745" y="143" text-anchor="middle" class="tl-sub">by + 将来时间</text>
+        <circle cx="820" cy="106" r="8" fill="#7c3aed"/>
+        <text x="820" y="135" text-anchor="middle" class="tl-node">将来某时前</text>
+        <text x="820" y="154" text-anchor="middle" class="tl-sub">by + 将来时间</text>
 
-        <text x="430" y="176" text-anchor="middle" class="tl-tip">口诀：时点用一般/进行，时段用完成；看时间状语 → 看上下文谓语 → 看常识与固定句型</text>
+        <text x="460" y="188" text-anchor="middle" class="tl-tip">口诀：时点用一般/进行，时段用完成；看时间状语 → 看上下文谓语 → 看常识与固定句型</text>
       </svg>
     </div>
     <div class="callout">
