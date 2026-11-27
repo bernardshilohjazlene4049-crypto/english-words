@@ -19,7 +19,26 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：符合“主将从现”，属于真实条件句。"
     ],
     "exp": "从句 rains 为一般现在时，主句 will close 为一般将来时，是典型的“主将从现”真实条件句（非虚拟语气）。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：先区分真实条件与违背事实假设，再锁定是对现在、过去还是将来虚拟。",
+      "提示 2（破题线索）：观察从句动词 rains（一般现在）和主句动词 will close（一般将来）的时态形式。",
+      "提示 3（排错聚焦）：第二步（核对动词时态）：从句 rains 为一般现在时，主句 will close 为一般将来时，没有任何“往过去退一步”的特征。"
+    ],
+    "optExps": [
+      "A 项（主将从现（真实条件句））【正确】：从句 rains 为一般现在时，主句 will close 为一般将来时，是典型的“主将从现”真实条件句（非虚拟语气）。",
+      "B 项（虚拟语气）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：If I ____ his email address right now, I would send him the schedule.",
+      "opts": [
+        "A. know",
+        "B. knew"
+      ],
+      "ans": 1,
+      "exp": "主句 would send 与 right now 表明是对现在事实相反的虚拟，从句往前退一步用一般过去时 knew。"
+    }
   },
   {
     "id": "q2",
@@ -41,7 +60,26 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：属于对现在事实虚拟的虚拟语气。"
     ],
     "exp": "从句用 were（虚拟语气中系动词过去时一律用 were），主句用 would work，表示与现在事实相反的虚拟语气。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：先区分真实条件与违背事实假设，再锁定是对现在、过去还是将来虚拟。",
+      "提示 2（破题线索）：第一人称 I 后面竟然用了系动词 were，主句用了 would work。",
+      "提示 3（排错聚焦）：第二步（核对动词形式）：从句系动词过去时统一用 were，主句用 would + do。"
+    ],
+    "optExps": [
+      "A 项（主将从现（真实条件句））【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（虚拟语气）【正确】：从句用 were（虚拟语气中系动词过去时一律用 were），主句用 would work，表示与现在事实相反的虚拟语气。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：If I ____ his email address right now, I would send him the schedule.",
+      "opts": [
+        "A. know",
+        "B. knew"
+      ],
+      "ans": 1,
+      "exp": "主句 would send 与 right now 表明是对现在事实相反的虚拟，从句往前退一步用一般过去时 knew。"
+    }
   },
   {
     "id": "q3",
@@ -65,7 +103,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：唯一过去完成时选项为 B. had studied。"
     ],
     "exp": "混合虚拟语气：从句有 5 years ago（对过去虚拟，用 had done），主句有 now（对现在虚拟，用 would do），故选 B。（注：规范英语中表“现在已拥有”也常写 would have a good job now。）",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：分别核对主句和从句各自的时间标志，句首无连词时尝试补回 if 还原语序。",
+      "提示 2（破题线索）：注意从句时间词是 5 years ago（过去），而主句时间词是 now（现在）！",
+      "提示 3（排错聚焦）：第二步（定从句形式）：对“过去事实”相反的假设，if 从句必须使用过去完成时 【目标结构】 + done。"
+    ],
+    "optExps": [
+      "A 项（studied）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（had studied）【正确】：混合虚拟语气：从句有 5 years ago（对过去虚拟，用 had done），主句有 now（对现在虚拟，用 would do），故选 B。（注：规范英语中表“现在已拥有”也常写 would have a good job now。）",
+      "C 项（were to study）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（should study）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：____ he caught the early train this morning, he wouldn't be late for the forum now.",
+      "opts": [
+        "A. Had",
+        "B. Were"
+      ],
+      "ans": 0,
+      "exp": "还原为 If he had caught...（混合虚拟：今早对过去虚拟用 had caught，现在结果用 wouldn't be），省 if 提 Had。"
+    }
   },
   {
     "id": "q119",
@@ -89,7 +148,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：对现在事实相反的虚拟，if 从句用一般过去时 had。"
     ],
     "exp": "对现在事实相反的虚拟，if 从句用一般过去时 had。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：先区分真实条件与违背事实假设，再锁定是对现在、过去还是将来虚拟。",
+      "提示 2（破题线索）：人不可能长翅膀 + right now（对现在虚拟）。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（had）【正确】：对现在事实相反的虚拟，if 从句用一般过去时 had。",
+      "B 项（will have）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "C 项（had had）【排除】：虚拟时间档位错位（把现在/将来虚拟误用成了过去完成虚拟，或反之）。",
+      "D 项（have）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：If I ____ his email address right now, I would send him the schedule.",
+      "opts": [
+        "A. know",
+        "B. knew"
+      ],
+      "ans": 1,
+      "exp": "主句 would send 与 right now 表明是对现在事实相反的虚拟，从句往前退一步用一般过去时 knew。"
+    }
   },
   {
     "id": "q120",
@@ -100,7 +180,7 @@ window.WSG_BANKS["2"] = [
     "diff": 1,
     "q": "If she ____ here at this moment, she would definitely know how to fix the printer.",
     "opts": [
-      "A. was been",
+      "A. was",
       "B. is",
       "C. were",
       "D. had been"
@@ -113,7 +193,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：对现在虚拟，if 从句中 be 动词不论人称一律用 were。"
     ],
     "exp": "对现在虚拟，if 从句中 be 动词不论人称一律用 were。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：先区分真实条件与违背事实假设，再锁定是对现在、过去还是将来虚拟。",
+      "提示 2（破题线索）：at this moment（对现在虚拟）+ 系动词 be 的虚拟过去式。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（was）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（is）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "C 项（were）【正确】：对现在虚拟，if 从句中 be 动词不论人称一律用 were。",
+      "D 项（had been）【排除】：虚拟时间档位错位（把现在/将来虚拟误用成了过去完成虚拟，或反之）。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：If I ____ his email address right now, I would send him the schedule.",
+      "opts": [
+        "A. know",
+        "B. knew"
+      ],
+      "ans": 1,
+      "exp": "主句 would send 与 right now 表明是对现在事实相反的虚拟，从句往前退一步用一般过去时 knew。"
+    }
   },
   {
     "id": "q121",
@@ -137,7 +238,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：对过去虚拟主句公式：would/could/should/might + (not) + have done → wouldn't have lost。"
     ],
     "exp": "对过去虚拟主句公式：would/could/should/might + (not) + have done → wouldn't have lost。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：先区分真实条件与违背事实假设，再锁定是对现在、过去还是将来虚拟。",
+      "提示 2（破题线索）：从句 had backed up + yesterday（对过去虚拟），推主句。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（didn't lose）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（wouldn't lose）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（won't lose）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（wouldn't have lost）【正确】：对过去虚拟主句公式：would/could/should/might + (not) + have done → wouldn't have lost。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：If I ____ his email address right now, I would send him the schedule.",
+      "opts": [
+        "A. know",
+        "B. knew"
+      ],
+      "ans": 1,
+      "exp": "主句 would send 与 right now 表明是对现在事实相反的虚拟，从句往前退一步用一般过去时 knew。"
+    }
   },
   {
     "id": "q122",
@@ -161,7 +283,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：“厕所没水”互换：对过去虚拟表“本能做到”，用 could have caught。"
     ],
     "exp": "“厕所没水”互换：对过去虚拟表“本能做到”，用 could have caught。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：先区分真实条件与违背事实假设，再锁定是对现在、过去还是将来虚拟。",
+      "提示 2（破题线索）：从句 hadn't got stuck + this morning（对过去虚拟），表“本能够赶上”。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（could catch）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（will catch）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "C 项（caught）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（could have caught）【正确】：“厕所没水”互换：对过去虚拟表“本能做到”，用 could have caught。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：If I ____ his email address right now, I would send him the schedule.",
+      "opts": [
+        "A. know",
+        "B. knew"
+      ],
+      "ans": 1,
+      "exp": "主句 would send 与 right now 表明是对现在事实相反的虚拟，从句往前退一步用一般过去时 knew。"
+    }
   },
   {
     "id": "q123",
@@ -185,7 +328,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：对将来虚拟从句三形式：did / should do / were to do；后接 to rise 只能选 were。"
     ],
     "exp": "对将来虚拟从句三形式：did / should do / were to do；后接 to rise 只能选 were。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：先区分真实条件与违背事实假设，再锁定是对现在、过去还是将来虚拟。",
+      "提示 2（破题线索）：空格后是 to rise + tomorrow（对将来极不可能事件的虚拟）。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（had been）【排除】：虚拟时间档位错位（把现在/将来虚拟误用成了过去完成虚拟，或反之）。",
+      "B 项（is）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "C 项（will be）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "D 项（were）【正确】：对将来虚拟从句三形式：did / should do / were to do；后接 to rise 只能选 were。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：If I ____ his email address right now, I would send him the schedule.",
+      "opts": [
+        "A. know",
+        "B. knew"
+      ],
+      "ans": 1,
+      "exp": "主句 would send 与 right now 表明是对现在事实相反的虚拟，从句往前退一步用一般过去时 knew。"
+    }
   },
   {
     "id": "q124",
@@ -209,7 +373,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：if 将来虚拟从句中接动词原形可用 should + do（注意 if 条件从句一般不用 would）。"
     ],
     "exp": "if 将来虚拟从句中接动词原形可用 should + do（注意 if 条件从句一般不用 would）。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：先区分真实条件与违背事实假设，再锁定是对现在、过去还是将来虚拟。",
+      "提示 2（破题线索）：空格后是动词原形 snow + next year（对将来小概率虚拟）。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 【目标结构】 能否省略。"
+    ],
+    "optExps": [
+      "A 项（would）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（will）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（has）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "D 项（should）【正确】：if 将来虚拟从句中接动词原形可用 should + do（注意 if 条件从句一般不用 would）。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：If I ____ his email address right now, I would send him the schedule.",
+      "opts": [
+        "A. know",
+        "B. knew"
+      ],
+      "ans": 1,
+      "exp": "主句 would send 与 right now 表明是对现在事实相反的虚拟，从句往前退一步用一般过去时 knew。"
+    }
   },
   {
     "id": "q125",
@@ -233,7 +418,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：主句 could + do 对应现在虚拟，从句用一般过去时 made。"
     ],
     "exp": "主句 could + do 对应现在虚拟，从句用一般过去时 made。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：先区分真实条件与违背事实假设，再锁定是对现在、过去还是将来虚拟。",
+      "提示 2（破题线索）：主句是 could sleep（对现在经常性状态的相反假设）。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（made）【正确】：主句 could + do 对应现在虚拟，从句用一般过去时 made。",
+      "B 项（makes）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（had made）【排除】：虚拟时间档位错位（把现在/将来虚拟误用成了过去完成虚拟，或反之）。",
+      "D 项（will make）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：If I ____ his email address right now, I would send him the schedule.",
+      "opts": [
+        "A. know",
+        "B. knew"
+      ],
+      "ans": 1,
+      "exp": "主句 would send 与 right now 表明是对现在事实相反的虚拟，从句往前退一步用一般过去时 knew。"
+    }
   },
   {
     "id": "q126",
@@ -257,7 +463,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：与过去事实相反，if 从句用过去完成时 had known。"
     ],
     "exp": "与过去事实相反，if 从句用过去完成时 had known。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：先区分真实条件与违背事实假设，再锁定是对现在、过去还是将来虚拟。",
+      "提示 2（破题线索）：last month + 主句 would have applied（对过去虚拟）。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（had known）【正确】：与过去事实相反，if 从句用过去完成时 had known。",
+      "B 项（knew）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（were to know）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（know）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：If I ____ his email address right now, I would send him the schedule.",
+      "opts": [
+        "A. know",
+        "B. knew"
+      ],
+      "ans": 1,
+      "exp": "主句 would send 与 right now 表明是对现在事实相反的虚拟，从句往前退一步用一般过去时 knew。"
+    }
   },
   {
     "id": "q127",
@@ -281,7 +508,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：对现在虚拟，if 从句 be 动词用 were。"
     ],
     "exp": "对现在虚拟，if 从句 be 动词用 were。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：先区分真实条件与违背事实假设，再锁定是对现在、过去还是将来虚拟。",
+      "提示 2（破题线索）：today + 主句 might accept（现在虚拟）。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（were）【正确】：对现在虚拟，if 从句 be 动词用 were。",
+      "B 项（had been）【排除】：虚拟时间档位错位（把现在/将来虚拟误用成了过去完成虚拟，或反之）。",
+      "C 项（am）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "D 项（have been）【排除】：虚拟时间档位错位（把现在/将来虚拟误用成了过去完成虚拟，或反之）。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：If I ____ his email address right now, I would send him the schedule.",
+      "opts": [
+        "A. know",
+        "B. knew"
+      ],
+      "ans": 1,
+      "exp": "主句 would send 与 right now 表明是对现在事实相反的虚拟，从句往前退一步用一般过去时 knew。"
+    }
   },
   {
     "id": "q128",
@@ -305,7 +553,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：主句为祈使句 let's...，表明是完全可能实现的真实条件句（主祈从现），选一般现在时 is！"
     ],
     "exp": "主句为祈使句 let's...，表明是完全可能实现的真实条件句（主祈从现），选一般现在时 is！",
-    "trap": "exception"
+    "trap": "exception",
+    "hints": [
+      "提示 1（方向指引）：先区分真实条件与违背事实假设，再锁定是对现在、过去还是将来虚拟。",
+      "提示 2（破题线索）：【防坑！】后半句是祈使句 let's visit...！这是空想还是周日真可能开门？",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（were）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（would be）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（is）【正确】：主句为祈使句 let's...，表明是完全可能实现的真实条件句（主祈从现），选一般现在时 is！",
+      "D 项（had been）【排除】：虚拟时间档位错位（把现在/将来虚拟误用成了过去完成虚拟，或反之）。"
+    ],
+    "wrongDiag": "机械套用了考场速记口诀，忽略了该语法点在严格英语语法中的前提条件或特殊语境例外。",
+    "followUp": {
+      "q": "变形自测：If I ____ his email address right now, I would send him the schedule.",
+      "opts": [
+        "A. know",
+        "B. knew"
+      ],
+      "ans": 1,
+      "exp": "主句 would send 与 right now 表明是对现在事实相反的虚拟，从句往前退一步用一般过去时 knew。"
+    }
   },
   {
     "id": "q129",
@@ -329,7 +598,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：对现在虚拟，主句用 would + 动词原形 would make。"
     ],
     "exp": "对现在虚拟，主句用 would + 动词原形 would make。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：先区分真实条件与违背事实假设，再锁定是对现在、过去还是将来虚拟。",
+      "提示 2（破题线索）：now + 从句 were not（对现在虚拟）。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（made）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（will make）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "C 项（would have made）【排除】：虚拟时间档位错位（把现在/将来虚拟误用成了过去完成虚拟，或反之）。",
+      "D 项（would make）【正确】：对现在虚拟，主句用 would + 动词原形 would make。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：If I ____ his email address right now, I would send him the schedule.",
+      "opts": [
+        "A. know",
+        "B. knew"
+      ],
+      "ans": 1,
+      "exp": "主句 would send 与 right now 表明是对现在事实相反的虚拟，从句往前退一步用一般过去时 knew。"
+    }
   },
   {
     "id": "q130",
@@ -353,7 +643,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：对过去事实相反的虚拟，从句用过去完成时 had reacted。"
     ],
     "exp": "对过去事实相反的虚拟，从句用过去完成时 had reacted。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：先区分真实条件与违背事实假设，再锁定是对现在、过去还是将来虚拟。",
+      "提示 2（破题线索）：just now（刚才 = 过去）+ 主句 might have saved。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（should react）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（had reacted）【正确】：对过去事实相反的虚拟，从句用过去完成时 had reacted。",
+      "C 项（reacted）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（reacts）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：If I ____ his email address right now, I would send him the schedule.",
+      "opts": [
+        "A. know",
+        "B. knew"
+      ],
+      "ans": 1,
+      "exp": "主句 would send 与 right now 表明是对现在事实相反的虚拟，从句往前退一步用一般过去时 knew。"
+    }
   },
   {
     "id": "q131",
@@ -377,7 +688,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：对现在客观事实相反的虚拟，从句用一般过去时 had。"
     ],
     "exp": "对现在客观事实相反的虚拟，从句用一般过去时 had。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：先区分真实条件与违背事实假设，再锁定是对现在、过去还是将来虚拟。",
+      "提示 2（破题线索）：主句 would float 描述违背客观现状的假设。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（will have）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "B 项（would have）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（had）【正确】：对现在客观事实相反的虚拟，从句用一般过去时 had。",
+      "D 项（have）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：If I ____ his email address right now, I would send him the schedule.",
+      "opts": [
+        "A. know",
+        "B. knew"
+      ],
+      "ans": 1,
+      "exp": "主句 would send 与 right now 表明是对现在事实相反的虚拟，从句往前退一步用一般过去时 knew。"
+    }
   },
   {
     "id": "q132",
@@ -401,7 +733,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：对将来虚拟结构 were to do，故选 were。"
     ],
     "exp": "对将来虚拟结构 were to do，故选 were。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：先区分真实条件与违背事实假设，再锁定是对现在、过去还是将来虚拟。",
+      "提示 2（破题线索）：空格后是 to attend + next Monday + 主句 would you wear。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（will）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（are）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "C 项（were）【正确】：对将来虚拟结构 were to do，故选 were。",
+      "D 项（had）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：If I ____ his email address right now, I would send him the schedule.",
+      "opts": [
+        "A. know",
+        "B. knew"
+      ],
+      "ans": 1,
+      "exp": "主句 would send 与 right now 表明是对现在事实相反的虚拟，从句往前退一步用一般过去时 knew。"
+    }
   },
   {
     "id": "q133",
@@ -425,7 +778,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：与过去事实相反，从句用过去完成时否定 hadn't been。"
     ],
     "exp": "与过去事实相反，从句用过去完成时否定 hadn't been。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：先区分真实条件与违背事实假设，再锁定是对现在、过去还是将来虚拟。",
+      "提示 2（破题线索）：主句 would have passed + last week（对过去虚拟）。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（isn't）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（hadn't been）【正确】：与过去事实相反，从句用过去完成时否定 hadn't been。",
+      "C 项（weren't）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（wouldn't be）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：If I ____ his email address right now, I would send him the schedule.",
+      "opts": [
+        "A. know",
+        "B. knew"
+      ],
+      "ans": 1,
+      "exp": "主句 would send 与 right now 表明是对现在事实相反的虚拟，从句往前退一步用一般过去时 knew。"
+    }
   },
   {
     "id": "q134",
@@ -449,7 +823,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：对现在虚拟，if 从句用一般过去时 carried。"
     ],
     "exp": "对现在虚拟，if 从句用一般过去时 carried。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：先区分真实条件与违背事实假设，再锁定是对现在、过去还是将来虚拟。",
+      "提示 2（破题线索）：right now + 主句 wouldn't be lost（对现在虚拟）。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（carry）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（will carry）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "C 项（carried）【正确】：对现在虚拟，if 从句用一般过去时 carried。",
+      "D 项（had carried）【排除】：虚拟时间档位错位（把现在/将来虚拟误用成了过去完成虚拟，或反之）。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：If I ____ his email address right now, I would send him the schedule.",
+      "opts": [
+        "A. know",
+        "B. knew"
+      ],
+      "ans": 1,
+      "exp": "主句 would send 与 right now 表明是对现在事实相反的虚拟，从句往前退一步用一般过去时 knew。"
+    }
   },
   {
     "id": "q135",
@@ -466,14 +861,35 @@ window.WSG_BANKS["2"] = [
       "D. would"
     ],
     "ans": 3,
-    "hint": "【严格语法特殊礼貌用法】If you would/will excuse me 表委婉客气请求！",
+    "hint": "【严格语法特殊礼貌用法】If you 【目标结构】/will excuse me 表委婉客气请求！",
     "steps": [
       "第一步（判虚拟类型）：识别 if 条件句、错综时间、省略倒装、wish/would rather、“贱命重要”或含蓄虚拟。",
       "第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。",
       "第三步（锁答案）：虽然普通条件虚拟 if 从句不用 would，但表委婉礼貌请求“劳驾请允许我…”时固定可用 If you would + do！"
     ],
     "exp": "虽然普通条件虚拟 if 从句不用 would，但表委婉礼貌请求“劳驾请允许我…”时固定可用 If you would + do！",
-    "trap": "exception"
+    "trap": "exception",
+    "hints": [
+      "提示 1（方向指引）：先区分真实条件与违背事实假设，再锁定是对现在、过去还是将来虚拟。",
+      "提示 2（破题线索）：【严格语法特殊礼貌用法】If you 【目标结构】/will excuse me 表委婉客气请求！",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（did）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（were）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（had）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（would）【正确】：虽然普通条件虚拟 if 从句不用 would，但表委婉礼貌请求“劳驾请允许我…”时固定可用 If you would + do！"
+    ],
+    "wrongDiag": "机械套用了考场速记口诀，忽略了该语法点在严格英语语法中的前提条件或特殊语境例外。",
+    "followUp": {
+      "q": "变形自测：If I ____ his email address right now, I would send him the schedule.",
+      "opts": [
+        "A. know",
+        "B. knew"
+      ],
+      "ans": 1,
+      "exp": "主句 would send 与 right now 表明是对现在事实相反的虚拟，从句往前退一步用一般过去时 knew。"
+    }
   },
   {
     "id": "q136",
@@ -497,7 +913,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：主句对过去虚拟且 happen 无被动，用 might have happened。"
     ],
     "exp": "主句对过去虚拟且 happen 无被动，用 might have happened。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：先区分真实条件与违背事实假设，再锁定是对现在、过去还是将来虚拟。",
+      "提示 2（破题线索）：从句 hadn't been repaired + last autumn（过去虚拟）。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（will happen）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "B 项（happened）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（might happen）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（might have happened）【正确】：主句对过去虚拟且 happen 无被动，用 might have happened。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：If I ____ his email address right now, I would send him the schedule.",
+      "opts": [
+        "A. know",
+        "B. knew"
+      ],
+      "ans": 1,
+      "exp": "主句 would send 与 right now 表明是对现在事实相反的虚拟，从句往前退一步用一般过去时 knew。"
+    }
   },
   {
     "id": "q137",
@@ -521,7 +958,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：主句对现在虚拟用 could + 动词原形 could chat。"
     ],
     "exp": "主句对现在虚拟用 could + 动词原形 could chat。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：先区分真实条件与违背事实假设，再锁定是对现在、过去还是将来虚拟。",
+      "提示 2（破题线索）：从句 knew（对现在虚拟）。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（could have chatted）【排除】：虚拟时间档位错位（把现在/将来虚拟误用成了过去完成虚拟，或反之）。",
+      "B 项（chatted）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（can chat）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（could chat）【正确】：主句对现在虚拟用 could + 动词原形 could chat。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：If I ____ his email address right now, I would send him the schedule.",
+      "opts": [
+        "A. know",
+        "B. knew"
+      ],
+      "ans": 1,
+      "exp": "主句 would send 与 right now 表明是对现在事实相反的虚拟，从句往前退一步用一般过去时 knew。"
+    }
   },
   {
     "id": "q138",
@@ -545,7 +1003,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：主句用 will go，证明是真实条件句（主将从现），从句用一般现在时 is。"
     ],
     "exp": "主句用 will go，证明是真实条件句（主将从现），从句用一般现在时 is。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：先区分真实条件与违背事实假设，再锁定是对现在、过去还是将来虚拟。",
+      "提示 2（破题线索）：看清主句是 will go cycling（真实将来，不是 would）！",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（should）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（is）【正确】：主句用 will go，证明是真实条件句（主将从现），从句用一般现在时 is。",
+      "C 项（had been）【排除】：虚拟时间档位错位（把现在/将来虚拟误用成了过去完成虚拟，或反之）。",
+      "D 项（were）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：If I ____ his email address right now, I would send him the schedule.",
+      "opts": [
+        "A. know",
+        "B. knew"
+      ],
+      "ans": 1,
+      "exp": "主句 would send 与 right now 表明是对现在事实相反的虚拟，从句往前退一步用一般过去时 knew。"
+    }
   },
   {
     "id": "q139",
@@ -569,7 +1048,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：对过去虚拟，if 从句用 had treated。"
     ],
     "exp": "对过去虚拟，if 从句用 had treated。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：先区分真实条件与违背事实假设，再锁定是对现在、过去还是将来虚拟。",
+      "提示 2（破题线索）：years ago + wouldn't have been polluted（过去虚拟）。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（had treated）【正确】：对过去虚拟，if 从句用 had treated。",
+      "B 项（treated）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（treats）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（would treat）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：If I ____ his email address right now, I would send him the schedule.",
+      "opts": [
+        "A. know",
+        "B. knew"
+      ],
+      "ans": 1,
+      "exp": "主句 would send 与 right now 表明是对现在事实相反的虚拟，从句往前退一步用一般过去时 knew。"
+    }
   },
   {
     "id": "q140",
@@ -593,7 +1093,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：对将来虚拟从句可用一般过去时 won（或 should win / were to win）。"
     ],
     "exp": "对将来虚拟从句可用一般过去时 won（或 should win / were to win）。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：先区分真实条件与违背事实假设，再锁定是对现在、过去还是将来虚拟。",
+      "提示 2（破题线索）：主句 What would you do + tomorrow（对将来虚拟）。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（have won）【排除】：虚拟时间档位错位（把现在/将来虚拟误用成了过去完成虚拟，或反之）。",
+      "B 项（win）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（won）【正确】：对将来虚拟从句可用一般过去时 won（或 should win / were to win）。",
+      "D 项（will win）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：If I ____ his email address right now, I would send him the schedule.",
+      "opts": [
+        "A. know",
+        "B. knew"
+      ],
+      "ans": 1,
+      "exp": "主句 would send 与 right now 表明是对现在事实相反的虚拟，从句往前退一步用一般过去时 knew。"
+    }
   },
   {
     "id": "q141",
@@ -617,7 +1138,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：对过去虚拟主句用 wouldn't have wasted。"
     ],
     "exp": "对过去虚拟主句用 wouldn't have wasted。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：先区分真实条件与违背事实假设，再锁定是对现在、过去还是将来虚拟。",
+      "提示 2（破题线索）：从句 had read（过去虚拟），推过去已浪费两小时的相反结果。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（wouldn't have wasted）【正确】：对过去虚拟主句用 wouldn't have wasted。",
+      "B 项（won't waste）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（wouldn't waste）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（didn't waste）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：If I ____ his email address right now, I would send him the schedule.",
+      "opts": [
+        "A. know",
+        "B. knew"
+      ],
+      "ans": 1,
+      "exp": "主句 would send 与 right now 表明是对现在事实相反的虚拟，从句往前退一步用一般过去时 knew。"
+    }
   },
   {
     "id": "q142",
@@ -641,7 +1183,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：虚拟语气中 be 动词过去时一律用 were（If there were no...）。"
     ],
     "exp": "虚拟语气中 be 动词过去时一律用 were（If there were no...）。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：先区分真实条件与违背事实假设，再锁定是对现在、过去还是将来虚拟。",
+      "提示 2（破题线索）：there be 句型的对现在客观事实相反虚拟。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（has been）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（is）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "C 项（will be）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "D 项（were）【正确】：虚拟语气中 be 动词过去时一律用 were（If there were no...）。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：If I ____ his email address right now, I would send him the schedule.",
+      "opts": [
+        "A. know",
+        "B. knew"
+      ],
+      "ans": 1,
+      "exp": "主句 would send 与 right now 表明是对现在事实相反的虚拟，从句往前退一步用一般过去时 knew。"
+    }
   },
   {
     "id": "q143",
@@ -665,7 +1228,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：主句带 now 表对现在结果的虚拟，用 would + 原形 would be（不能选 would have been！）。"
     ],
     "exp": "主句带 now 表对现在结果的虚拟，用 would + 原形 would be（不能选 would have been！）。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：分别核对主句和从句各自的时间标志，句首无连词时尝试补回 if 还原语序。",
+      "提示 2（破题线索）：从句 last month（过去）+ 主句 now（现在）：错综时间混合虚拟！",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（would have been）【排除】：虚拟时间档位错位（把现在/将来虚拟误用成了过去完成虚拟，或反之）。",
+      "B 项（are）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "C 项（would be）【正确】：主句带 now 表对现在结果的虚拟，用 would + 原形 would be（不能选 would have been！）。",
+      "D 项（will be）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：____ he caught the early train this morning, he wouldn't be late for the forum now.",
+      "opts": [
+        "A. Had",
+        "B. Were"
+      ],
+      "ans": 0,
+      "exp": "还原为 If he had caught...（混合虚拟：今早对过去虚拟用 had caught，现在结果用 wouldn't be），省 if 提 Had。"
+    }
   },
   {
     "id": "q144",
@@ -689,7 +1273,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：混合虚拟：性格品行是恒常现在特征，用对现在虚拟 weren't；主句指昨天事件用 wouldn't have returned。"
     ],
     "exp": "混合虚拟：性格品行是恒常现在特征，用对现在虚拟 weren't；主句指昨天事件用 wouldn't have returned。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：分别核对主句和从句各自的时间标志，句首无连词时尝试补回 if 还原语序。",
+      "提示 2（破题线索）：前半句说他一贯的为人性格（现在/常态），后半句说昨天归还钱包（过去）！",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（hadn't been）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（isn't）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（weren't）【正确】：混合虚拟：性格品行是恒常现在特征，用对现在虚拟 weren't；主句指昨天事件用 wouldn't have returned。",
+      "D 项（won't be）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：____ he caught the early train this morning, he wouldn't be late for the forum now.",
+      "opts": [
+        "A. Had",
+        "B. Were"
+      ],
+      "ans": 0,
+      "exp": "还原为 If he had caught...（混合虚拟：今早对过去虚拟用 had caught，现在结果用 wouldn't be），省 if 提 Had。"
+    }
   },
   {
     "id": "q145",
@@ -713,7 +1318,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：If I had known 省略 if 并将助动词 Had 提前构成部分倒装：Had I known...。"
     ],
     "exp": "If I had known 省略 if 并将助动词 Had 提前构成部分倒装：Had I known...。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：分别核对主句和从句各自的时间标志，句首无连词时尝试补回 if 还原语序。",
+      "提示 2（破题线索）：句首无 if，紧跟主语 I + 过去分词 known！",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（Were）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（If）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（Had）【正确】：If I had known 省略 if 并将助动词 Had 提前构成部分倒装：Had I known...。",
+      "D 项（Should）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：____ he caught the early train this morning, he wouldn't be late for the forum now.",
+      "opts": [
+        "A. Had",
+        "B. Were"
+      ],
+      "ans": 0,
+      "exp": "还原为 If he had caught...（混合虚拟：今早对过去虚拟用 had caught，现在结果用 wouldn't be），省 if 提 Had。"
+    }
   },
   {
     "id": "q146",
@@ -730,14 +1356,35 @@ window.WSG_BANKS["2"] = [
       "D. Was"
     ],
     "ans": 2,
-    "hint": "句首无 if，紧跟 I in your shoes（= If I were in your shoes）。",
+    "hint": "句首无 if，紧跟 I in your shoes（= If I 【目标结构】 in your shoes）。",
     "steps": [
       "第一步（判虚拟类型）：识别 if 条件句、错综时间、省略倒装、wish/would rather、“贱命重要”或含蓄虚拟。",
       "第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。",
       "第三步（锁答案）：省略 if 后将系动词 Were 提前到主语 I 之前：Were I...。"
     ],
     "exp": "省略 if 后将系动词 Were 提前到主语 I 之前：Were I...。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：分别核对主句和从句各自的时间标志，句首无连词时尝试补回 if 还原语序。",
+      "提示 2（破题线索）：句首无 if，紧跟 I in your shoes（= If I 【目标结构】 in your shoes）。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（Had）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（Should）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（Were）【正确】：省略 if 后将系动词 Were 提前到主语 I 之前：Were I...。",
+      "D 项（Was）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：____ he caught the early train this morning, he wouldn't be late for the forum now.",
+      "opts": [
+        "A. Had",
+        "B. Were"
+      ],
+      "ans": 0,
+      "exp": "还原为 If he had caught...（混合虚拟：今早对过去虚拟用 had caught，现在结果用 wouldn't be），省 if 提 Had。"
+    }
   },
   {
     "id": "q147",
@@ -761,7 +1408,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：If any emergency should arise 省略 if 提前 Should（注意祈使主句亦常搭配 Should 倒装表万一）。"
     ],
     "exp": "If any emergency should arise 省略 if 提前 Should（注意祈使主句亦常搭配 Should 倒装表万一）。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：分别核对主句和从句各自的时间标志，句首无连词时尝试补回 if 还原语序。",
+      "提示 2（破题线索）：句首无 if，主语 any emergency 后是动词原形 arise。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 【目标结构】 能否省略。"
+    ],
+    "optExps": [
+      "A 项（Were）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（Should）【正确】：If any emergency should arise 省略 if 提前 Should（注意祈使主句亦常搭配 Should 倒装表万一）。",
+      "C 项（Would）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（Had）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：____ he caught the early train this morning, he wouldn't be late for the forum now.",
+      "opts": [
+        "A. Had",
+        "B. Were"
+      ],
+      "ans": 0,
+      "exp": "还原为 If he had caught...（混合虚拟：今早对过去虚拟用 had caught，现在结果用 wouldn't be），省 if 提 Had。"
+    }
   },
   {
     "id": "q148",
@@ -778,14 +1446,35 @@ window.WSG_BANKS["2"] = [
       "D. If it had been"
     ],
     "ans": 2,
-    "hint": "【倒装否定陷阱】否定词 not 在 if 省略倒装中能不能跟着 Had 一起缩略提前？",
+    "hint": "【倒装否定陷阱】否定词 【目标结构】 在 if 省略倒装中能不能跟着 【目标结构】 一起缩略提前？",
     "steps": [
       "第一步（判虚拟类型）：识别 if 条件句、错综时间、省略倒装、wish/would rather、“贱命重要”或含蓄虚拟。",
       "第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。",
       "第三步（锁答案）：绝不能写 Hadn't it been！省略 if 倒装时 not 必须留在主语 it 之后：Had it not been for...（要不是因为过去…）。"
     ],
     "exp": "绝不能写 Hadn't it been！省略 if 倒装时 not 必须留在主语 it 之后：Had it not been for...（要不是因为过去…）。",
-    "trap": "exception"
+    "trap": "exception",
+    "hints": [
+      "提示 1（方向指引）：分别核对主句和从句各自的时间标志，句首无连词时尝试补回 if 还原语序。",
+      "提示 2（破题线索）：【倒装否定陷阱】否定词 【目标结构】 在 if 省略倒装中能不能跟着 【目标结构】 一起缩略提前？",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（Were it not）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（Hadn't it been）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（Had it not been）【正确】：绝不能写 Hadn't it been！省略 if 倒装时 not 必须留在主语 it 之后：Had it not been for...（要不是因为过去…）。",
+      "D 项（If it had been）【排除】：虚拟时间档位错位（把现在/将来虚拟误用成了过去完成虚拟，或反之）。"
+    ],
+    "wrongDiag": "机械套用了考场速记口诀，忽略了该语法点在严格英语语法中的前提条件或特殊语境例外。",
+    "followUp": {
+      "q": "变形自测：____ he caught the early train this morning, he wouldn't be late for the forum now.",
+      "opts": [
+        "A. Had",
+        "B. Were"
+      ],
+      "ans": 0,
+      "exp": "还原为 If he had caught...（混合虚拟：今早对过去虚拟用 had caught，现在结果用 wouldn't be），省 if 提 Had。"
+    }
   },
   {
     "id": "q149",
@@ -809,7 +1498,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：还原为 If they were to cancel...（should 后接原形不带 to，had 后接 done），故只能选 Were they！"
     ],
     "exp": "还原为 If they were to cancel...（should 后接原形不带 to，had 后接 done），故只能选 Were they！",
-    "trap": "exception"
+    "trap": "exception",
+    "hints": [
+      "提示 1（方向指引）：分别核对主句和从句各自的时间标志，句首无连词时尝试补回 if 还原语序。",
+      "提示 2（破题线索）：注意空格后面是带 to 的不定式 to cancel！",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（Had they）【排除】：虚拟时间档位错位（把现在/将来虚拟误用成了过去完成虚拟，或反之）。",
+      "B 项（Should they）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（Did they）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（Were they）【正确】：还原为 If they were to cancel...（should 后接原形不带 to，had 后接 done），故只能选 Were they！"
+    ],
+    "wrongDiag": "机械套用了考场速记口诀，忽略了该语法点在严格英语语法中的前提条件或特殊语境例外。",
+    "followUp": {
+      "q": "变形自测：____ he caught the early train this morning, he wouldn't be late for the forum now.",
+      "opts": [
+        "A. Had",
+        "B. Were"
+      ],
+      "ans": 0,
+      "exp": "还原为 If he had caught...（混合虚拟：今早对过去虚拟用 had caught，现在结果用 wouldn't be），省 if 提 Had。"
+    }
   },
   {
     "id": "q150",
@@ -833,7 +1543,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：wish 对现在虚拟，从句往前退一步用一般过去时 knew。"
     ],
     "exp": "wish 对现在虚拟，从句往前退一步用一般过去时 knew。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：分别核对主句和从句各自的时间标志，句首无连词时尝试补回 if 还原语序。",
+      "提示 2（破题线索）：wish 宾语从句 + right now（对现在愿望的虚拟）。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（know）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（knew）【正确】：wish 对现在虚拟，从句往前退一步用一般过去时 knew。",
+      "C 项（will know）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "D 项（had known）【排除】：虚拟时间档位错位（把现在/将来虚拟误用成了过去完成虚拟，或反之）。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：____ he caught the early train this morning, he wouldn't be late for the forum now.",
+      "opts": [
+        "A. Had",
+        "B. Were"
+      ],
+      "ans": 0,
+      "exp": "还原为 If he had caught...（混合虚拟：今早对过去虚拟用 had caught，现在结果用 wouldn't be），省 if 提 Had。"
+    }
   },
   {
     "id": "q151",
@@ -857,7 +1588,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：wish 从句对过去事实虚拟一律用过去完成时 hadn't said（与主句 wishes 现在时无关）。"
     ],
     "exp": "wish 从句对过去事实虚拟一律用过去完成时 hadn't said（与主句 wishes 现在时无关）。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：分别核对主句和从句各自的时间标志，句首无连词时尝试补回 if 还原语序。",
+      "提示 2（破题线索）：wishes 后接 yesterday 已发生事件的懊悔（对过去虚拟）。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（didn't say）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（wouldn't say）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（doesn't say）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（hadn't said）【正确】：wish 从句对过去事实虚拟一律用过去完成时 hadn't said（与主句 wishes 现在时无关）。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：____ he caught the early train this morning, he wouldn't be late for the forum now.",
+      "opts": [
+        "A. Had",
+        "B. Were"
+      ],
+      "ans": 0,
+      "exp": "还原为 If he had caught...（混合虚拟：今早对过去虚拟用 had caught，现在结果用 wouldn't be），省 if 提 Had。"
+    }
   },
   {
     "id": "q152",
@@ -881,7 +1633,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：wish 对将来虚拟，从句用 would / could / might + 动词原形 → would stop。"
     ],
     "exp": "wish 对将来虚拟，从句用 would / could / might + 动词原形 → would stop。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：分别核对主句和从句各自的时间标志，句首无连词时尝试补回 if 还原语序。",
+      "提示 2（破题线索）：wish 从句 + soon / tonight（对将来愿望的虚拟）。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（had stopped）【排除】：虚拟时间档位错位（把现在/将来虚拟误用成了过去完成虚拟，或反之）。",
+      "B 项（would stop）【正确】：wish 对将来虚拟，从句用 would / could / might + 动词原形 → would stop。",
+      "C 项（stops）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（has stopped）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：____ he caught the early train this morning, he wouldn't be late for the forum now.",
+      "opts": [
+        "A. Had",
+        "B. Were"
+      ],
+      "ans": 0,
+      "exp": "还原为 If he had caught...（混合虚拟：今早对过去虚拟用 had caught，现在结果用 wouldn't be），省 if 提 Had。"
+    }
   },
   {
     "id": "q153",
@@ -905,7 +1678,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：if only 虚拟规则与 wish 完全相同，对过去虚拟用 had paid。"
     ],
     "exp": "if only 虚拟规则与 wish 完全相同，对过去虚拟用 had paid。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：分别核对主句和从句各自的时间标志，句首无连词时尝试补回 if 还原语序。",
+      "提示 2（破题线索）：If only（要是…就好了）+ last semester（对过去的懊悔）。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（had paid）【正确】：if only 虚拟规则与 wish 完全相同，对过去虚拟用 had paid。",
+      "B 项（pay）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（paid）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（would pay）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：____ he caught the early train this morning, he wouldn't be late for the forum now.",
+      "opts": [
+        "A. Had",
+        "B. Were"
+      ],
+      "ans": 0,
+      "exp": "还原为 If he had caught...（混合虚拟：今早对过去虚拟用 had caught，现在结果用 wouldn't be），省 if 提 Had。"
+    }
   },
   {
     "id": "q154",
@@ -929,7 +1723,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：if only 对现在虚拟，be 动词一律用 were。"
     ],
     "exp": "if only 对现在虚拟，be 动词一律用 were。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：分别核对主句和从句各自的时间标志，句首无连词时尝试补回 if 还原语序。",
+      "提示 2（破题线索）：一天不可能有48小时（对现在/客观事实相反的感叹）。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（have been）【排除】：虚拟时间档位错位（把现在/将来虚拟误用成了过去完成虚拟，或反之）。",
+      "B 项（are）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "C 项（were）【正确】：if only 对现在虚拟，be 动词一律用 were。",
+      "D 项（will be）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：____ he caught the early train this morning, he wouldn't be late for the forum now.",
+      "opts": [
+        "A. Had",
+        "B. Were"
+      ],
+      "ans": 0,
+      "exp": "还原为 If he had caught...（混合虚拟：今早对过去虚拟用 had caught，现在结果用 wouldn't be），省 if 提 Had。"
+    }
   },
   {
     "id": "q155",
@@ -953,7 +1768,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：as if 对过去经历虚拟用过去完成时 had lived。"
     ],
     "exp": "as if 对过去经历虚拟用过去完成时 had lived。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：分别核对主句和从句各自的时间标志，句首无连词时尝试补回 if 还原语序。",
+      "提示 2（破题线索）：as if（仿佛）描述他之前在巴黎住过多年（先于 talks 的过去经历，实则没住过）。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（lives）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（lived）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（has lived）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（had lived）【正确】：as if 对过去经历虚拟用过去完成时 had lived。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：____ he caught the early train this morning, he wouldn't be late for the forum now.",
+      "opts": [
+        "A. Had",
+        "B. Were"
+      ],
+      "ans": 0,
+      "exp": "还原为 If he had caught...（混合虚拟：今早对过去虚拟用 had caught，现在结果用 wouldn't be），省 if 提 Had。"
+    }
   },
   {
     "id": "q156",
@@ -977,7 +1813,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：as if / as though 对现在虚拟，系动词用 were。"
     ],
     "exp": "as if / as though 对现在虚拟，系动词用 were。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：分别核对主句和从句各自的时间标志，句首无连词时尝试补回 if 还原语序。",
+      "提示 2（破题线索）：as though（好像）他是老板一样（对现在身份的虚拟）。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（is）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "B 项（were）【正确】：as if / as though 对现在虚拟，系动词用 were。",
+      "C 项（has been）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（will be）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：____ he caught the early train this morning, he wouldn't be late for the forum now.",
+      "opts": [
+        "A. Had",
+        "B. Were"
+      ],
+      "ans": 0,
+      "exp": "还原为 If he had caught...（混合虚拟：今早对过去虚拟用 had caught，现在结果用 wouldn't be），省 if 提 Had。"
+    }
   },
   {
     "id": "q157",
@@ -1001,7 +1858,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：当 as if 从句有充分事实迹象表明极可能为真时，用陈述语气真实时态 is（coming）！"
     ],
     "exp": "当 as if 从句有充分事实迹象表明极可能为真时，用陈述语气真实时态 is（coming）！",
-    "trap": "exception"
+    "trap": "exception",
+    "hints": [
+      "提示 1（方向指引）：分别核对主句和从句各自的时间标志，句首无连词时尝试补回 if 还原语序。",
+      "提示 2（破题线索）：【严格语法例外！】乌云狂风说明暴风雨【真的】要来了，还是假的空想？",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（would）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（is）【正确】：当 as if 从句有充分事实迹象表明极可能为真时，用陈述语气真实时态 is（coming）！",
+      "C 项（had been）【排除】：虚拟时间档位错位（把现在/将来虚拟误用成了过去完成虚拟，或反之）。",
+      "D 项（were）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "机械套用了考场速记口诀，忽略了该语法点在严格英语语法中的前提条件或特殊语境例外。",
+    "followUp": {
+      "q": "变形自测：____ he caught the early train this morning, he wouldn't be late for the forum now.",
+      "opts": [
+        "A. Had",
+        "B. Were"
+      ],
+      "ans": 0,
+      "exp": "还原为 If he had caught...（混合虚拟：今早对过去虚拟用 had caught，现在结果用 wouldn't be），省 if 提 Had。"
+    }
   },
   {
     "id": "q158",
@@ -1025,7 +1903,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：would rather 从句对“现在或将来”虚拟合并为一档：统一使用一般过去时 didn't tell！"
     ],
     "exp": "would rather 从句对“现在或将来”虚拟合并为一档：统一使用一般过去时 didn't tell！",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：分别核对主句和从句各自的时间标志，句首无连词时尝试补回 if 还原语序。",
+      "提示 2（破题线索）：would rather + 新主语 you + before next Friday（将来时间）。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（won't tell）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（don't tell）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（didn't tell）【正确】：would rather 从句对“现在或将来”虚拟合并为一档：统一使用一般过去时 didn't tell！",
+      "D 项（haven't told）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：____ he caught the early train this morning, he wouldn't be late for the forum now.",
+      "opts": [
+        "A. Had",
+        "B. Were"
+      ],
+      "ans": 0,
+      "exp": "还原为 If he had caught...（混合虚拟：今早对过去虚拟用 had caught，现在结果用 wouldn't be），省 if 提 Had。"
+    }
   },
   {
     "id": "q159",
@@ -1049,7 +1948,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：would rather 从句对过去虚拟使用过去完成时 had told。"
     ],
     "exp": "would rather 从句对过去虚拟使用过去完成时 had told。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：分别核对主句和从句各自的时间标志，句首无连词时尝试补回 if 还原语序。",
+      "提示 2（破题线索）：would rather + 新主语 you + last week（对过去虚拟）。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（would tell）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（tell）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（told）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（had told）【正确】：would rather 从句对过去虚拟使用过去完成时 had told。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：____ he caught the early train this morning, he wouldn't be late for the forum now.",
+      "opts": [
+        "A. Had",
+        "B. Were"
+      ],
+      "ans": 0,
+      "exp": "还原为 If he had caught...（混合虚拟：今早对过去虚拟用 had caught，现在结果用 wouldn't be），省 if 提 Had。"
+    }
   },
   {
     "id": "q160",
@@ -1073,7 +1993,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：此处没有从句主语，是固定非谓语结构 would rather do A than do B，直接填原形 stay！"
     ],
     "exp": "此处没有从句主语，是固定非谓语结构 would rather do A than do B，直接填原形 stay！",
-    "trap": "exception"
+    "trap": "exception",
+    "hints": [
+      "提示 1（方向指引）：分别核对主句和从句各自的时间标志，句首无连词时尝试补回 if 还原语序。",
+      "提示 2（破题线索）：【防混题】看清 would rather 后面有没有新主语！",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（stayed）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（stay）【正确】：此处没有从句主语，是固定非谓语结构 would rather do A than do B，直接填原形 stay！",
+      "C 项（to stay）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（staying）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "机械套用了考场速记口诀，忽略了该语法点在严格英语语法中的前提条件或特殊语境例外。",
+    "followUp": {
+      "q": "变形自测：____ he caught the early train this morning, he wouldn't be late for the forum now.",
+      "opts": [
+        "A. Had",
+        "B. Were"
+      ],
+      "ans": 0,
+      "exp": "还原为 If he had caught...（混合虚拟：今早对过去虚拟用 had caught，现在结果用 wouldn't be），省 if 提 Had。"
+    }
   },
   {
     "id": "q161",
@@ -1097,7 +2038,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：对现在虚拟，主句用 wouldn't be。"
     ],
     "exp": "对现在虚拟，主句用 wouldn't be。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：分别核对主句和从句各自的时间标志，句首无连词时尝试补回 if 还原语序。",
+      "提示 2（破题线索）：Were it not for... + right now 为对现在事实的倒装虚拟。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（wouldn't be）【正确】：对现在虚拟，主句用 wouldn't be。",
+      "B 项（won't be）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（isn't）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（wouldn't have been）【排除】：虚拟时间档位错位（把现在/将来虚拟误用成了过去完成虚拟，或反之）。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：____ he caught the early train this morning, he wouldn't be late for the forum now.",
+      "opts": [
+        "A. Had",
+        "B. Were"
+      ],
+      "ans": 0,
+      "exp": "还原为 If he had caught...（混合虚拟：今早对过去虚拟用 had caught，现在结果用 wouldn't be），省 if 提 Had。"
+    }
   },
   {
     "id": "q162",
@@ -1121,7 +2083,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：混合虚拟：主句对此刻正在进行的状态虚拟用 would be doing（would be lying）。"
     ],
     "exp": "混合虚拟：主句对此刻正在进行的状态虚拟用 would be doing（would be lying）。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：分别核对主句和从句各自的时间标志，句首无连词时尝试补回 if 还原语序。",
+      "提示 2（破题线索）：从句 last night（过去）+ 主句 now（此刻正在沙滩躺着）。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（would be lying）【正确】：混合虚拟：主句对此刻正在进行的状态虚拟用 would be doing（would be lying）。",
+      "B 项（lay）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（would have lain）【排除】：虚拟时间档位错位（把现在/将来虚拟误用成了过去完成虚拟，或反之）。",
+      "D 项（will lie）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：____ he caught the early train this morning, he wouldn't be late for the forum now.",
+      "opts": [
+        "A. Had",
+        "B. Were"
+      ],
+      "ans": 0,
+      "exp": "还原为 If he had caught...（混合虚拟：今早对过去虚拟用 had caught，现在结果用 wouldn't be），省 if 提 Had。"
+    }
   },
   {
     "id": "q163",
@@ -1145,7 +2128,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：还原为 If the technician had not checked，省 if 提前 Had。"
     ],
     "exp": "还原为 If the technician had not checked，省 if 提前 Had。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：分别核对主句和从句各自的时间标志，句首无连词时尝试补回 if 还原语序。",
+      "提示 2（破题线索）：主语 the technician 后有 not checked（过去分词）+ might have failed。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（Were）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（Did）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（Should）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（Had）【正确】：还原为 If the technician had not checked，省 if 提前 Had。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：____ he caught the early train this morning, he wouldn't be late for the forum now.",
+      "opts": [
+        "A. Had",
+        "B. Were"
+      ],
+      "ans": 0,
+      "exp": "还原为 If he had caught...（混合虚拟：今早对过去虚拟用 had caught，现在结果用 wouldn't be），省 if 提 Had。"
+    }
   },
   {
     "id": "q164",
@@ -1169,7 +2173,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：as if 从句表先于主句动作的虚拟假设用过去完成时 had seen。"
     ],
     "exp": "as if 从句表先于主句动作的虚拟假设用过去完成时 had seen。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：分别核对主句和从句各自的时间标志，句首无连词时尝试补回 if 还原语序。",
+      "提示 2（破题线索）：看到鬼发生在“呆呆注视（stared）”那一刻之前/瞬间完成，违背事实。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（has seen）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（will see）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "C 项（had seen）【正确】：as if 从句表先于主句动作的虚拟假设用过去完成时 had seen。",
+      "D 项（sees）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：____ he caught the early train this morning, he wouldn't be late for the forum now.",
+      "opts": [
+        "A. Had",
+        "B. Were"
+      ],
+      "ans": 0,
+      "exp": "还原为 If he had caught...（混合虚拟：今早对过去虚拟用 had caught，现在结果用 wouldn't be），省 if 提 Had。"
+    }
   },
   {
     "id": "q165",
@@ -1193,7 +2218,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：would sooner + 从句对现在/将来虚拟用一般过去时 didn't play。"
     ],
     "exp": "would sooner + 从句对现在/将来虚拟用一般过去时 didn't play。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：分别核对主句和从句各自的时间标志，句首无连词时尝试补回 if 还原语序。",
+      "提示 2（破题线索）：would sooner（= would rather）+ 从句主语 my roommates，表现在/将来愿望。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（don't play）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（won't play）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（not play）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（didn't play）【正确】：would sooner + 从句对现在/将来虚拟用一般过去时 didn't play。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：____ he caught the early train this morning, he wouldn't be late for the forum now.",
+      "opts": [
+        "A. Had",
+        "B. Were"
+      ],
+      "ans": 0,
+      "exp": "还原为 If he had caught...（混合虚拟：今早对过去虚拟用 had caught，现在结果用 wouldn't be），省 if 提 Had。"
+    }
   },
   {
     "id": "q166",
@@ -1217,7 +2263,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：从句带 now 表恒常能力对现在虚拟用 were，主句 yesterday 对过去虚拟用 would have got。"
     ],
     "exp": "从句带 now 表恒常能力对现在虚拟用 were，主句 yesterday 对过去虚拟用 would have got。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：分别核对主句和从句各自的时间标志，句首无连词时尝试补回 if 还原语序。",
+      "提示 2（破题线索）：反向混合虚拟：如果我现在/一向日语流利（常态），昨天就能拿到翻译工作（过去）！",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（am）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "B 项（would be）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（had been）【排除】：虚拟时间档位错位（把现在/将来虚拟误用成了过去完成虚拟，或反之）。",
+      "D 项（were）【正确】：从句带 now 表恒常能力对现在虚拟用 were，主句 yesterday 对过去虚拟用 would have got。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：____ he caught the early train this morning, he wouldn't be late for the forum now.",
+      "opts": [
+        "A. Had",
+        "B. Were"
+      ],
+      "ans": 0,
+      "exp": "还原为 If he had caught...（混合虚拟：今早对过去虚拟用 had caught，现在结果用 wouldn't be），省 if 提 Had。"
+    }
   },
   {
     "id": "q167",
@@ -1241,7 +2308,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：还原为 If you should change...，should 后接动词原形 change。"
     ],
     "exp": "还原为 If you should change...，should 后接动词原形 change。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：分别核对主句和从句各自的时间标志，句首无连词时尝试补回 if 还原语序。",
+      "提示 2（破题线索）：句首 Should + 主语 you 倒装虚拟，后面接什么动词形式？",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（changed）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（change）【正确】：还原为 If you should change...，should 后接动词原形 change。",
+      "C 项（have changed）【排除】：虚拟时间档位错位（把现在/将来虚拟误用成了过去完成虚拟，或反之）。",
+      "D 项（to change）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：____ he caught the early train this morning, he wouldn't be late for the forum now.",
+      "opts": [
+        "A. Had",
+        "B. Were"
+      ],
+      "ans": 0,
+      "exp": "还原为 If he had caught...（混合虚拟：今早对过去虚拟用 had caught，现在结果用 wouldn't be），省 if 提 Had。"
+    }
   },
   {
     "id": "q168",
@@ -1265,7 +2353,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：advise 后的宾语从句用 (should) + 动词原形 drink（虽主语为单数 the boy 也绝不加 s，且不能换 would drink！）。"
     ],
     "exp": "advise 后的宾语从句用 (should) + 动词原形 drink（虽主语为单数 the boy 也绝不加 s，且不能换 would drink！）。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：识别建议/命令/要求/重要词族，若是 suggest 或 insist 须先辨明词义。",
+      "提示 2（破题线索）：advised（建议）属于“贱命重要”核心动词，注意该类虚拟严禁换 would！",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（drinks）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（would drink）【排除】：“建议/命令/重要/要求”类虚拟从句固定用 (should) + 原形，严禁与 would 互换。",
+      "C 项（drink）【正确】：advise 后的宾语从句用 (should) + 动词原形 drink（虽主语为单数 the boy 也绝不加 s，且不能换 would drink！）。",
+      "D 项（drank）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Her bright smile suggested that she ____ satisfied with the interview result.",
+      "opts": [
+        "A. be",
+        "B. was"
+      ],
+      "ans": 1,
+      "exp": "微笑不能“提出建议”，此处 suggest 意为“表明、暗示”，必须用陈述语气真实过去时 was！"
+    }
   },
   {
     "id": "q169",
@@ -1289,7 +2398,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：“贱命重要”被动虚拟为 (should) be preserved，省略 should 后直接填原形 be！"
     ],
     "exp": "“贱命重要”被动虚拟为 (should) be preserved，省略 should 后直接填原形 be！",
-    "trap": "voice"
+    "trap": "voice",
+    "hints": [
+      "提示 1（方向指引）：识别建议/命令/要求/重要词族，若是 suggest 或 insist 须先辨明词义。",
+      "提示 2（破题线索）：proposed（提议）+ 老剧院“被保护（被动）”。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（be）【正确】：“贱命重要”被动虚拟为 (should) be preserved，省略 should 后直接填原形 be！",
+      "B 项（would be）【排除】：“建议/命令/重要/要求”类虚拟从句固定用 (should) + 原形，严禁与 would 互换。",
+      "C 项（is）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "D 项（was）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "逻辑主语与动作的主被动关系判断失误，或忽略了不及物动词无被动、感官/属性动词主动表被动的边界。",
+    "followUp": {
+      "q": "变形自测：Her bright smile suggested that she ____ satisfied with the interview result.",
+      "opts": [
+        "A. be",
+        "B. was"
+      ],
+      "ans": 1,
+      "exp": "微笑不能“提出建议”，此处 suggest 意为“表明、暗示”，必须用陈述语气真实过去时 was！"
+    }
   },
   {
     "id": "q170",
@@ -1313,7 +2443,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：order 表命令时宾语从句用 (should) + 动词原形 enter。"
     ],
     "exp": "order 表命令时宾语从句用 (should) + 动词原形 enter。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：识别建议/命令/要求/重要词族，若是 suggest 或 insist 须先辨明词义。",
+      "提示 2（破题线索）：ordered 此处意为“下令（命令）”，不是“点餐”。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（enters）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（must enter）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（enter）【正确】：order 表命令时宾语从句用 (should) + 动词原形 enter。",
+      "D 项（entered）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Her bright smile suggested that she ____ satisfied with the interview result.",
+      "opts": [
+        "A. be",
+        "B. was"
+      ],
+      "ans": 1,
+      "exp": "微笑不能“提出建议”，此处 suggest 意为“表明、暗示”，必须用陈述语气真实过去时 was！"
+    }
   },
   {
     "id": "q171",
@@ -1337,7 +2488,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：从句用 (should) + 动词原形 observe。"
     ],
     "exp": "从句用 (should) + 动词原形 observe。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：识别建议/命令/要求/重要词族，若是 suggest 或 insist 须先辨明词义。",
+      "提示 2（破题线索）：It is vital that...（至关重要的是…）属于“重要/必要”主语从句虚拟。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（will observe）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "B 项（observed）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（observes）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（observe）【正确】：从句用 (should) + 动词原形 observe。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Her bright smile suggested that she ____ satisfied with the interview result.",
+      "opts": [
+        "A. be",
+        "B. was"
+      ],
+      "ans": 1,
+      "exp": "微笑不能“提出建议”，此处 suggest 意为“表明、暗示”，必须用陈述语气真实过去时 was！"
+    }
   },
   {
     "id": "q172",
@@ -1361,7 +2533,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：“贱命重要”名词对应的表语/同位语从句用 (should) be handed in → 填 be。"
     ],
     "exp": "“贱命重要”名词对应的表语/同位语从句用 (should) be handed in → 填 be。",
-    "trap": "voice"
+    "trap": "voice",
+    "hints": [
+      "提示 1（方向指引）：识别建议/命令/要求/重要词族，若是 suggest 或 insist 须先辨明词义。",
+      "提示 2（破题线索）：名词 requirement（要求）后面的表语从句同样适用虚拟语气！",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（will be）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "B 项（be）【正确】：“贱命重要”名词对应的表语/同位语从句用 (should) be handed in → 填 be。",
+      "C 项（are）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "D 项（were）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "逻辑主语与动作的主被动关系判断失误，或忽略了不及物动词无被动、感官/属性动词主动表被动的边界。",
+    "followUp": {
+      "q": "变形自测：Her bright smile suggested that she ____ satisfied with the interview result.",
+      "opts": [
+        "A. be",
+        "B. was"
+      ],
+      "ans": 1,
+      "exp": "微笑不能“提出建议”，此处 suggest 意为“表明、暗示”，必须用陈述语气真实过去时 was！"
+    }
   },
   {
     "id": "q173",
@@ -1385,7 +2578,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：suggestion 的同位语从句用 (should) + 原形 postpone。"
     ],
     "exp": "suggestion 的同位语从句用 (should) + 原形 postpone。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：识别建议/命令/要求/重要词族，若是 suggest 或 insist 须先辨明词义。",
+      "提示 2（破题线索）：抽象名词 suggestion（建议）后的同位语从句。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（postpone）【正确】：suggestion 的同位语从句用 (should) + 原形 postpone。",
+      "B 项（would postpone）【排除】：“建议/命令/重要/要求”类虚拟从句固定用 (should) + 原形，严禁与 would 互换。",
+      "C 项（postponed）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（postpones）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Her bright smile suggested that she ____ satisfied with the interview result.",
+      "opts": [
+        "A. be",
+        "B. was"
+      ],
+      "ans": 1,
+      "exp": "微笑不能“提出建议”，此处 suggest 意为“表明、暗示”，必须用陈述语气真实过去时 was！"
+    }
   },
   {
     "id": "q174",
@@ -1409,7 +2623,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：request 后宾语从句用 (should) + 原形 provide。"
     ],
     "exp": "request 后宾语从句用 (should) + 原形 provide。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：识别建议/命令/要求/重要词族，若是 suggest 或 insist 须先辨明词义。",
+      "提示 2（破题线索）：requested（请求/要求）后的宾语从句。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（would provide）【排除】：“建议/命令/重要/要求”类虚拟从句固定用 (should) + 原形，严禁与 would 互换。",
+      "B 项（provide）【正确】：request 后宾语从句用 (should) + 原形 provide。",
+      "C 项（provided）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（provides）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Her bright smile suggested that she ____ satisfied with the interview result.",
+      "opts": [
+        "A. be",
+        "B. was"
+      ],
+      "ans": 1,
+      "exp": "微笑不能“提出建议”，此处 suggest 意为“表明、暗示”，必须用陈述语气真实过去时 was！"
+    }
   },
   {
     "id": "q175",
@@ -1433,7 +2668,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：demand 从句被动虚拟：(should) be compensated → 填 be。"
     ],
     "exp": "demand 从句被动虚拟：(should) be compensated → 填 be。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：识别建议/命令/要求/重要词族，若是 suggest 或 insist 须先辨明词义。",
+      "提示 2（破题线索）：demanded（要求）+ 受伤工人“被赔偿”。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（be）【正确】：demand 从句被动虚拟：(should) be compensated → 填 be。",
+      "B 项（would be）【排除】：“建议/命令/重要/要求”类虚拟从句固定用 (should) + 原形，严禁与 would 互换。",
+      "C 项（is）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "D 项（was）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Her bright smile suggested that she ____ satisfied with the interview result.",
+      "opts": [
+        "A. be",
+        "B. was"
+      ],
+      "ans": 1,
+      "exp": "微笑不能“提出建议”，此处 suggest 意为“表明、暗示”，必须用陈述语气真实过去时 was！"
+    }
   },
   {
     "id": "q176",
@@ -1457,7 +2713,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：recommend 宾语从句用 (should) + 原形 apply。"
     ],
     "exp": "recommend 宾语从句用 (should) + 原形 apply。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：识别建议/命令/要求/重要词族，若是 suggest 或 insist 须先辨明词义。",
+      "提示 2（破题线索）：recommended（推荐/建议）后的宾语从句。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（applies）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（applied）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（apply）【正确】：recommend 宾语从句用 (should) + 原形 apply。",
+      "D 项（would apply）【排除】：“建议/命令/重要/要求”类虚拟从句固定用 (should) + 原形，严禁与 would 互换。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Her bright smile suggested that she ____ satisfied with the interview result.",
+      "opts": [
+        "A. be",
+        "B. was"
+      ],
+      "ans": 1,
+      "exp": "微笑不能“提出建议”，此处 suggest 意为“表明、暗示”，必须用陈述语气真实过去时 was！"
+    }
   },
   {
     "id": "q177",
@@ -1481,7 +2758,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：necessary 主语从句用 (should) be checked → 填 be。"
     ],
     "exp": "necessary 主语从句用 (should) be checked → 填 be。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：识别建议/命令/要求/重要词族，若是 suggest 或 insist 须先辨明词义。",
+      "提示 2（破题线索）：It is necessary that... + 发电机“被检查”。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（was）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（is）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "C 项（be）【正确】：necessary 主语从句用 (should) be checked → 填 be。",
+      "D 项（has been）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Her bright smile suggested that she ____ satisfied with the interview result.",
+      "opts": [
+        "A. be",
+        "B. was"
+      ],
+      "ans": 1,
+      "exp": "微笑不能“提出建议”，此处 suggest 意为“表明、暗示”，必须用陈述语气真实过去时 was！"
+    }
   },
   {
     "id": "q178",
@@ -1505,7 +2803,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：require 宾语从句用 (should) + 原形 register，切勿加 s。"
     ],
     "exp": "require 宾语从句用 (should) + 原形 register，切勿加 s。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：识别建议/命令/要求/重要词族，若是 suggest 或 insist 须先辨明词义。",
+      "提示 2（破题线索）：requires（规定要求）+ 单数主语 a visitor。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（registers）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（register）【正确】：require 宾语从句用 (should) + 原形 register，切勿加 s。",
+      "C 项（will register）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "D 项（registered）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Her bright smile suggested that she ____ satisfied with the interview result.",
+      "opts": [
+        "A. be",
+        "B. was"
+      ],
+      "ans": 1,
+      "exp": "微笑不能“提出建议”，此处 suggest 意为“表明、暗示”，必须用陈述语气真实过去时 was！"
+    }
   },
   {
     "id": "q179",
@@ -1529,7 +2848,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：should not stay 省略 should 后直接保留 not + 动词原形（not stay），严禁加助动词 don't / didn't！"
     ],
     "exp": "should not stay 省略 should 后直接保留 not + 动词原形（not stay），严禁加助动词 don't / didn't！",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：识别建议/命令/要求/重要词族，若是 suggest 或 insist 须先辨明词义。",
+      "提示 2（破题线索）：考查“贱命重要”虚拟语气的【否定形式】！",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（didn't）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（wouldn't）【排除】：“建议/命令/重要/要求”类虚拟从句固定用 (should) + 原形，严禁与 would 互换。",
+      "C 项（don't）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（not）【正确】：should not stay 省略 should 后直接保留 not + 动词原形（not stay），严禁加助动词 don't / didn't！"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Her bright smile suggested that she ____ satisfied with the interview result.",
+      "opts": [
+        "A. be",
+        "B. was"
+      ],
+      "ans": 1,
+      "exp": "微笑不能“提出建议”，此处 suggest 意为“表明、暗示”，必须用陈述语气真实过去时 was！"
+    }
   },
   {
     "id": "q180",
@@ -1538,7 +2878,7 @@ window.WSG_BANKS["2"] = [
     "source": "authored",
     "sourceLabel": "自编练习题",
     "diff": 3,
-    "q": "His trembling hands and avoids-eye-contact look suggested that he ____ something from us.",
+    "q": "His trembling hands and evasive eyes suggested that he ____ something from us at that moment.",
     "opts": [
       "A. be hiding",
       "B. was hiding",
@@ -1546,14 +2886,35 @@ window.WSG_BANKS["2"] = [
       "D. hide"
     ],
     "ans": 1,
-    "hint": "【双义词必考】颤抖的双手能不能开口“提建议”？",
+    "hint": "主语是“颤抖的双手和躲闪的眼神”，思考此处的谓语动词表达“提建议”还是“暗示某种事实”？",
     "steps": [
       "第一步（判虚拟类型）：识别 if 条件句、错综时间、省略倒装、wish/would rather、“贱命重要”或含蓄虚拟。",
       "第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。",
       "第三步（锁答案）：主语是“颤抖的手和眼神”，suggest 此处意为“表明、暗示”（非建议！），用陈述语气过去进行时 was hiding！"
     ],
     "exp": "主语是“颤抖的手和眼神”，suggest 此处意为“表明、暗示”（非建议！），用陈述语气过去进行时 was hiding！",
-    "trap": "exception"
+    "trap": "exception",
+    "hints": [
+      "提示 1（方向指引）：识别建议/命令/要求/重要词族，若是 suggest 或 insist 须先辨明词义。",
+      "提示 2（破题线索）：主语是“颤抖的双手和躲闪的眼神”，思考此处的谓语动词表达“提建议”还是“暗示某种事实”？",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（be hiding）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（was hiding）【正确】：主语是“颤抖的手和眼神”，suggest 此处意为“表明、暗示”（非建议！），用陈述语气过去进行时 was hiding！",
+      "C 项（should hide）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（hide）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "机械套用了考场速记口诀，忽略了该语法点在严格英语语法中的前提条件或特殊语境例外。",
+    "followUp": {
+      "q": "变形自测：Her bright smile suggested that she ____ satisfied with the interview result.",
+      "opts": [
+        "A. be",
+        "B. was"
+      ],
+      "ans": 1,
+      "exp": "微笑不能“提出建议”，此处 suggest 意为“表明、暗示”，必须用陈述语气真实过去时 was！"
+    }
   },
   {
     "id": "q181",
@@ -1577,7 +2938,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：suggest 表“证明、表明”客观历史推断时不用虚拟语气，结合 800 years ago 选真实过去时 was。"
     ],
     "exp": "suggest 表“证明、表明”客观历史推断时不用虚拟语气，结合 800 years ago 选真实过去时 was。",
-    "trap": "exception"
+    "trap": "exception",
+    "hints": [
+      "提示 1（方向指引）：识别建议/命令/要求/重要词族，若是 suggest 或 insist 须先辨明词义。",
+      "提示 2（破题线索）：evidence（证据）+ suggests（表明）+ 800 years ago。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（were）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（be）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（was）【正确】：suggest 表“证明、表明”客观历史推断时不用虚拟语气，结合 800 years ago 选真实过去时 was。",
+      "D 项（should be）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "机械套用了考场速记口诀，忽略了该语法点在严格英语语法中的前提条件或特殊语境例外。",
+    "followUp": {
+      "q": "变形自测：Her bright smile suggested that she ____ satisfied with the interview result.",
+      "opts": [
+        "A. be",
+        "B. was"
+      ],
+      "ans": 1,
+      "exp": "微笑不能“提出建议”，此处 suggest 意为“表明、暗示”，必须用陈述语气真实过去时 was！"
+    }
   },
   {
     "id": "q182",
@@ -1601,7 +2983,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：目击证人“坚称某个已发生事实”，insist 用陈述语气；“看到”发生在“坚称（insisted）”之前，用过去完成时 had seen！"
     ],
     "exp": "目击证人“坚称某个已发生事实”，insist 用陈述语气；“看到”发生在“坚称（insisted）”之前，用过去完成时 had seen！",
-    "trap": "exception"
+    "trap": "exception",
+    "hints": [
+      "提示 1（方向指引）：识别建议/命令/要求/重要词族，若是 suggest 或 insist 须先辨明词义。",
+      "提示 2（破题线索）：【双义词必考】目击证人是“要求嫌疑人离开”，还是“坚称自己昨晚亲眼看到了”？",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（sees）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（should see）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（had seen）【正确】：目击证人“坚称某个已发生事实”，insist 用陈述语气；“看到”发生在“坚称（insisted）”之前，用过去完成时 had seen！",
+      "D 项（see）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "机械套用了考场速记口诀，忽略了该语法点在严格英语语法中的前提条件或特殊语境例外。",
+    "followUp": {
+      "q": "变形自测：Her bright smile suggested that she ____ satisfied with the interview result.",
+      "opts": [
+        "A. be",
+        "B. was"
+      ],
+      "ans": 1,
+      "exp": "微笑不能“提出建议”，此处 suggest 意为“表明、暗示”，必须用陈述语气真实过去时 was！"
+    }
   },
   {
     "id": "q183",
@@ -1625,7 +3028,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：队长“坚决要求由自己亲自带领救援队（应做而未做的行动）”，严格语法按“坚决要求”取虚拟语气 (should) lead → lead！"
     ],
     "exp": "队长“坚决要求由自己亲自带领救援队（应做而未做的行动）”，严格语法按“坚决要求”取虚拟语气 (should) lead → lead！",
-    "trap": "exception"
+    "trap": "exception",
+    "hints": [
+      "提示 1（方向指引）：识别建议/命令/要求/重要词族，若是 suggest 或 insist 须先辨明词义。",
+      "提示 2（破题线索）：【打破死记硬背！】虽然前后主语都是队长本人（人称一致），但队长在表达什么语义？",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（would lead）【排除】：“建议/命令/重要/要求”类虚拟从句固定用 (should) + 原形，严禁与 would 互换。",
+      "B 项（leads）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（lead）【正确】：队长“坚决要求由自己亲自带领救援队（应做而未做的行动）”，严格语法按“坚决要求”取虚拟语气 (should) lead → lead！",
+      "D 项（led）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "机械套用了考场速记口诀，忽略了该语法点在严格英语语法中的前提条件或特殊语境例外。",
+    "followUp": {
+      "q": "变形自测：Her bright smile suggested that she ____ satisfied with the interview result.",
+      "opts": [
+        "A. be",
+        "B. was"
+      ],
+      "ans": 1,
+      "exp": "微笑不能“提出建议”，此处 suggest 意为“表明、暗示”，必须用陈述语气真实过去时 was！"
+    }
   },
   {
     "id": "q184",
@@ -1649,7 +3073,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：insist 表“坚决要求”用虚拟语气 (should) go。"
     ],
     "exp": "insist 表“坚决要求”用虚拟语气 (should) go。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：识别建议/命令/要求/重要词族，若是 suggest 或 insist 须先辨明词义。",
+      "提示 2（破题线索）：姐姐坚决要求弟弟立刻去道歉（主张应做某事）。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（would go）【排除】：“建议/命令/重要/要求”类虚拟从句固定用 (should) + 原形，严禁与 would 互换。",
+      "B 项（goes）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（went）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（go）【正确】：insist 表“坚决要求”用虚拟语气 (should) go。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Her bright smile suggested that she ____ satisfied with the interview result.",
+      "opts": [
+        "A. be",
+        "B. was"
+      ],
+      "ans": 1,
+      "exp": "微笑不能“提出建议”，此处 suggest 意为“表明、暗示”，必须用陈述语气真实过去时 was！"
+    }
   },
   {
     "id": "q185",
@@ -1673,7 +3118,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：It is advisable that... 用 (should) + 动词原形 start。"
     ],
     "exp": "It is advisable that... 用 (should) + 动词原形 start。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：识别建议/命令/要求/重要词族，若是 suggest 或 insist 须先辨明词义。",
+      "提示 2（破题线索）：advisable 是 advise 的同族形容词（明智的、可取的）。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（start）【正确】：It is advisable that... 用 (should) + 动词原形 start。",
+      "B 项（started）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（will start）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "D 项（starts）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Her bright smile suggested that she ____ satisfied with the interview result.",
+      "opts": [
+        "A. be",
+        "B. was"
+      ],
+      "ans": 1,
+      "exp": "微笑不能“提出建议”，此处 suggest 意为“表明、暗示”，必须用陈述语气真实过去时 was！"
+    }
   },
   {
     "id": "q186",
@@ -1697,7 +3163,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：urgent 属于“重要/紧迫”虚拟词族，被动用 (should) be delivered → 填 be。"
     ],
     "exp": "urgent 属于“重要/紧迫”虚拟词族，被动用 (should) be delivered → 填 be。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：识别建议/命令/要求/重要词族，若是 suggest 或 insist 须先辨明词义。",
+      "提示 2（破题线索）：It is urgent that...（当务之急是…）+ 物资被运送。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（were）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（be）【正确】：urgent 属于“重要/紧迫”虚拟词族，被动用 (should) be delivered → 填 be。",
+      "C 项（will be）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "D 项（are）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Her bright smile suggested that she ____ satisfied with the interview result.",
+      "opts": [
+        "A. be",
+        "B. was"
+      ],
+      "ans": 1,
+      "exp": "微笑不能“提出建议”，此处 suggest 意为“表明、暗示”，必须用陈述语气真实过去时 was！"
+    }
   },
   {
     "id": "q187",
@@ -1721,7 +3208,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：order 表“命令”时同位语从句用 (should) + 原形 withdraw。"
     ],
     "exp": "order 表“命令”时同位语从句用 (should) + 原形 withdraw。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：识别建议/命令/要求/重要词族，若是 suggest 或 insist 须先辨明词义。",
+      "提示 2（破题线索）：名词 order（命令）后的同位语从句。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（withdraw）【正确】：order 表“命令”时同位语从句用 (should) + 原形 withdraw。",
+      "B 项（withdrew）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（withdrawn）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（would withdraw）【排除】：“建议/命令/重要/要求”类虚拟从句固定用 (should) + 原形，严禁与 would 互换。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Her bright smile suggested that she ____ satisfied with the interview result.",
+      "opts": [
+        "A. be",
+        "B. was"
+      ],
+      "ans": 1,
+      "exp": "微笑不能“提出建议”，此处 suggest 意为“表明、暗示”，必须用陈述语气真实过去时 was！"
+    }
   },
   {
     "id": "q188",
@@ -1745,7 +3253,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：ask（要求）后的宾语从句表请求某事被做，用虚拟被动 (should) be cooked。"
     ],
     "exp": "ask（要求）后的宾语从句表请求某事被做，用虚拟被动 (should) be cooked。",
-    "trap": "exception"
+    "trap": "exception",
+    "hints": [
+      "提示 1（方向指引）：识别建议/命令/要求/重要词族，若是 suggest 或 insist 须先辨明词义。",
+      "提示 2（破题线索）：前一个 ordered 是“点餐”，后一个 asked that... 是“要求牛排被煎到三分熟”！",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（was cooked）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（cooked）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（be cooked）【正确】：ask（要求）后的宾语从句表请求某事被做，用虚拟被动 (should) be cooked。",
+      "D 项（would cook）【排除】：“建议/命令/重要/要求”类虚拟从句固定用 (should) + 原形，严禁与 would 互换。"
+    ],
+    "wrongDiag": "机械套用了考场速记口诀，忽略了该语法点在严格英语语法中的前提条件或特殊语境例外。",
+    "followUp": {
+      "q": "变形自测：Her bright smile suggested that she ____ satisfied with the interview result.",
+      "opts": [
+        "A. be",
+        "B. was"
+      ],
+      "ans": 1,
+      "exp": "微笑不能“提出建议”，此处 suggest 意为“表明、暗示”，必须用陈述语气真实过去时 was！"
+    }
   },
   {
     "id": "q189",
@@ -1769,7 +3298,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：proposal 同位语从句被动用 (should) be set up → 填 be。"
     ],
     "exp": "proposal 同位语从句被动用 (should) be set up → 填 be。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：识别建议/命令/要求/重要词族，若是 suggest 或 insist 须先辨明词义。",
+      "提示 2（破题线索）：名词 proposal（提议 = propose）后的同位语从句。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（will be）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "B 项（is）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "C 项（be）【正确】：proposal 同位语从句被动用 (should) be set up → 填 be。",
+      "D 项（was）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Her bright smile suggested that she ____ satisfied with the interview result.",
+      "opts": [
+        "A. be",
+        "B. was"
+      ],
+      "ans": 1,
+      "exp": "微笑不能“提出建议”，此处 suggest 意为“表明、暗示”，必须用陈述语气真实过去时 was！"
+    }
   },
   {
     "id": "q190",
@@ -1783,7 +3333,7 @@ window.WSG_BANKS["2"] = [
       "A. should be",
       "B. is being",
       "C. will be",
-      "D. was been"
+      "D. was"
     ],
     "ans": 0,
     "hint": "It is strange / natural / surprising that... 表达说话人惊讶情感。",
@@ -1793,7 +3343,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：It is strange that... 常接 should + do（“竟然…”）表达惊奇，故选 should be。"
     ],
     "exp": "It is strange that... 常接 should + do（“竟然…”）表达惊奇，故选 should be。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：识别建议/命令/要求/重要词族，若是 suggest 或 insist 须先辨明词义。",
+      "提示 2（破题线索）：It is strange / natural / surprising that... 表达说话人惊讶情感。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 【目标结构】 能否省略。"
+    ],
+    "optExps": [
+      "A 项（should be）【正确】：It is strange that... 常接 should + do（“竟然…”）表达惊奇，故选 should be。",
+      "B 项（is being）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（will be）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "D 项（was）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Her bright smile suggested that she ____ satisfied with the interview result.",
+      "opts": [
+        "A. be",
+        "B. was"
+      ],
+      "ans": 1,
+      "exp": "微笑不能“提出建议”，此处 suggest 意为“表明、暗示”，必须用陈述语气真实过去时 was！"
+    }
   },
   {
     "id": "q191",
@@ -1817,7 +3388,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：should not be skipped 省略 should 后为 not be（skipped）。"
     ],
     "exp": "should not be skipped 省略 should 后为 not be（skipped）。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：识别建议/命令/要求/重要词族，若是 suggest 或 insist 须先辨明词义。",
+      "提示 2（破题线索）：名词 insistence（坚决要求 = insist）同位语从句的否定被动！",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（not be）【正确】：should not be skipped 省略 should 后为 not be（skipped）。",
+      "B 项（weren't）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（wouldn't be）【排除】：“建议/命令/重要/要求”类虚拟从句固定用 (should) + 原形，严禁与 would 互换。",
+      "D 项（don't be）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Her bright smile suggested that she ____ satisfied with the interview result.",
+      "opts": [
+        "A. be",
+        "B. was"
+      ],
+      "ans": 1,
+      "exp": "微笑不能“提出建议”，此处 suggest 意为“表明、暗示”，必须用陈述语气真实过去时 was！"
+    }
   },
   {
     "id": "q192",
@@ -1841,7 +3433,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：imperative 主语从句被动虚拟用 (should) be kept。"
     ],
     "exp": "imperative 主语从句被动虚拟用 (should) be kept。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：识别建议/命令/要求/重要词族，若是 suggest 或 insist 须先辨明词义。",
+      "提示 2（破题线索）：It is imperative that...（极有必要/必须）+ 试卷被锁。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（be kept）【正确】：imperative 主语从句被动虚拟用 (should) be kept。",
+      "B 项（are kept）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（will keep）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "D 项（were kept）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Her bright smile suggested that she ____ satisfied with the interview result.",
+      "opts": [
+        "A. be",
+        "B. was"
+      ],
+      "ans": 1,
+      "exp": "微笑不能“提出建议”，此处 suggest 意为“表明、暗示”，必须用陈述语气真实过去时 was！"
+    }
   },
   {
     "id": "q193",
@@ -1865,7 +3478,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：It is (high/about) time that 从句用一般过去时 learned（或 should learn，should 绝不可省，故不能选原形 learn！）。"
     ],
     "exp": "It is (high/about) time that 从句用一般过去时 learned（或 should learn，should 绝不可省，故不能选原形 learn！）。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：留意句首固定句式或介词短语暗含的相反假设，确定对应的时间档位。",
+      "提示 2（破题线索）：固定句型 It is high time that...！",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（learn）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（have learned）【排除】：虚拟时间档位错位（把现在/将来虚拟误用成了过去完成虚拟，或反之）。",
+      "C 项（learned）【正确】：It is (high/about) time that 从句用一般过去时 learned（或 should learn，should 绝不可省，故不能选原形 learn！）。",
+      "D 项（will learn）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Without the firefighters' timely rescue last night, the warehouse ____ to the ground.",
+      "opts": [
+        "A. would burn",
+        "B. would have burned"
+      ],
+      "ans": 1,
+      "exp": "Without...last night 为与过去事实相反的含蓄虚拟，主句用 would have done。"
+    }
   },
   {
     "id": "q194",
@@ -1882,14 +3516,35 @@ window.WSG_BANKS["2"] = [
       "D. will say"
     ],
     "ans": 1,
-    "hint": "选项中没有过去式 said，但有 should say 和原形 say！",
+    "hint": "选项中没有过去式 said，但有 【目标结构】 【目标结构】 和原形 【目标结构】！",
     "steps": [
       "第一步（判虚拟类型）：识别 if 条件句、错综时间、省略倒装、wish/would rather、“贱命重要”或含蓄虚拟。",
       "第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。",
       "第三步（锁答案）：It is about/high time that 既可用 did，也可用 should + do，但【should 绝对不能省略】，故选 should say！"
     ],
     "exp": "It is about/high time that 既可用 did，也可用 should + do，但【should 绝对不能省略】，故选 should say！",
-    "trap": "exception"
+    "trap": "exception",
+    "hints": [
+      "提示 1（方向指引）：留意句首固定句式或介词短语暗含的相反假设，确定对应的时间档位。",
+      "提示 2（破题线索）：选项中没有过去式 said，但有 【目标结构】 【目标结构】 和原形 【目标结构】！",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 【目标结构】 能否省略。"
+    ],
+    "optExps": [
+      "A 项（have said）【排除】：虚拟时间档位错位（把现在/将来虚拟误用成了过去完成虚拟，或反之）。",
+      "B 项（should say）【正确】：It is about/high time that 既可用 did，也可用 should + do，但【should 绝对不能省略】，故选 should say！",
+      "C 项（say）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（will say）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。"
+    ],
+    "wrongDiag": "机械套用了考场速记口诀，忽略了该语法点在严格英语语法中的前提条件或特殊语境例外。",
+    "followUp": {
+      "q": "变形自测：Without the firefighters' timely rescue last night, the warehouse ____ to the ground.",
+      "opts": [
+        "A. would burn",
+        "B. would have burned"
+      ],
+      "ans": 1,
+      "exp": "Without...last night 为与过去事实相反的含蓄虚拟，主句用 would have done。"
+    }
   },
   {
     "id": "q195",
@@ -1913,7 +3568,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：lest / for fear that 从句固定使用 (should) + 动词原形，省略 should 后为 forget。"
     ],
     "exp": "lest / for fear that 从句固定使用 (should) + 动词原形，省略 should 后为 forget。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：留意句首固定句式或介词短语暗含的相反假设，确定对应的时间档位。",
+      "提示 2（破题线索）：lest（免得、唯恐）引导目的/防备状语从句。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（would forget）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（forgot）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（have forgotten）【排除】：虚拟时间档位错位（把现在/将来虚拟误用成了过去完成虚拟，或反之）。",
+      "D 项（forget）【正确】：lest / for fear that 从句固定使用 (should) + 动词原形，省略 should 后为 forget。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Without the firefighters' timely rescue last night, the warehouse ____ to the ground.",
+      "opts": [
+        "A. would burn",
+        "B. would have burned"
+      ],
+      "ans": 1,
+      "exp": "Without...last night 为与过去事实相反的含蓄虚拟，主句用 would have done。"
+    }
   },
   {
     "id": "q196",
@@ -1937,7 +3613,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：for fear that 从句用 (should) + 动词原形，故选 should。"
     ],
     "exp": "for fear that 从句用 (should) + 动词原形，故选 should。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：留意句首固定句式或介词短语暗含的相反假设，确定对应的时间档位。",
+      "提示 2（破题线索）：for fear that（生怕、唯恐）引导从句。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 【目标结构】 能否省略。"
+    ],
+    "optExps": [
+      "A 项（had）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（would）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（will）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（should）【正确】：for fear that 从句用 (should) + 动词原形，故选 should。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Without the firefighters' timely rescue last night, the warehouse ____ to the ground.",
+      "opts": [
+        "A. would burn",
+        "B. would have burned"
+      ],
+      "ans": 1,
+      "exp": "Without...last night 为与过去事实相反的含蓄虚拟，主句用 would have done。"
+    }
   },
   {
     "id": "q197",
@@ -1950,18 +3647,39 @@ window.WSG_BANKS["2"] = [
     "opts": [
       "A. had gone",
       "B. would go",
-      "C. went out yesterday",
+      "C. will go",
       "D. should go"
     ],
     "ans": 3,
-    "hint": "in case 引导从句可接一般现在时 goes 或虚拟 (should) go。",
+    "hint": "in case 引导从句可接一般现在时 goes 或虚拟 (【目标结构】) 【目标结构】。",
     "steps": [
       "第一步（判虚拟类型）：识别 if 条件句、错综时间、省略倒装、wish/would rather、“贱命重要”或含蓄虚拟。",
       "第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。",
       "第三步（锁答案）：选项中唯一合乎语法的形式为 should go。"
     ],
     "exp": "选项中唯一合乎语法的形式为 should go。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：留意句首固定句式或介词短语暗含的相反假设，确定对应的时间档位。",
+      "提示 2（破题线索）：in case 引导从句可接一般现在时 goes 或虚拟 (【目标结构】) 【目标结构】。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 【目标结构】 能否省略。"
+    ],
+    "optExps": [
+      "A 项（had gone）【排除】：虚拟时间档位错位（把现在/将来虚拟误用成了过去完成虚拟，或反之）。",
+      "B 项（would go）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（will go）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "D 项（should go）【正确】：选项中唯一合乎语法的形式为 should go。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Without the firefighters' timely rescue last night, the warehouse ____ to the ground.",
+      "opts": [
+        "A. would burn",
+        "B. would have burned"
+      ],
+      "ans": 1,
+      "exp": "Without...last night 为与过去事实相反的含蓄虚拟，主句用 would have done。"
+    }
   },
   {
     "id": "q198",
@@ -1985,7 +3703,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：含蓄虚拟对现在假设，主句用情态动词过去式 would/could/might + do → could。"
     ],
     "exp": "含蓄虚拟对现在假设，主句用情态动词过去式 would/could/might + do → could。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：留意句首固定句式或介词短语暗含的相反假设，确定对应的时间档位。",
+      "提示 2（破题线索）：Without clean air and water（如果没有干净空气和水 = 对现在客观事实相反的含蓄虚拟）。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（can）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（shall）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（could）【正确】：含蓄虚拟对现在假设，主句用情态动词过去式 would/could/might + do → could。",
+      "D 项（will）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Without the firefighters' timely rescue last night, the warehouse ____ to the ground.",
+      "opts": [
+        "A. would burn",
+        "B. would have burned"
+      ],
+      "ans": 1,
+      "exp": "Without...last night 为与过去事实相反的含蓄虚拟，主句用 would have done。"
+    }
   },
   {
     "id": "q199",
@@ -2009,7 +3748,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：对过去含蓄虚拟，主句用 would/could/might + have done → would have drowned。"
     ],
     "exp": "对过去含蓄虚拟，主句用 would/could/might + have done → would have drowned。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：留意句首固定句式或介词短语暗含的相反假设，确定对应的时间档位。",
+      "提示 2（破题线索）：But for（要不是…）+ yesterday（对过去事实相反的含蓄虚拟）。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（would drown）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（drowned）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（would have drowned）【正确】：对过去含蓄虚拟，主句用 would/could/might + have done → would have drowned。",
+      "D 项（had drowned）【排除】：虚拟时间档位错位（把现在/将来虚拟误用成了过去完成虚拟，或反之）。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Without the firefighters' timely rescue last night, the warehouse ____ to the ground.",
+      "opts": [
+        "A. would burn",
+        "B. would have burned"
+      ],
+      "ans": 1,
+      "exp": "Without...last night 为与过去事实相反的含蓄虚拟，主句用 would have done。"
+    }
   },
   {
     "id": "q200",
@@ -2033,7 +3793,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：otherwise 对过去事实相反虚拟，主句用 would have attended。"
     ],
     "exp": "otherwise 对过去事实相反虚拟，主句用 would have attended。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：留意句首固定句式或介词短语暗含的相反假设，确定对应的时间档位。",
+      "提示 2（破题线索）：前半句陈述昨晚事实（was buried... last night），otherwise（否则/要不然）引出与昨晚相反的假设。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（will attend）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "B 项（attended）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（would attend）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（would have attended）【正确】：otherwise 对过去事实相反虚拟，主句用 would have attended。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Without the firefighters' timely rescue last night, the warehouse ____ to the ground.",
+      "opts": [
+        "A. would burn",
+        "B. would have burned"
+      ],
+      "ans": 1,
+      "exp": "Without...last night 为与过去事实相反的含蓄虚拟，主句用 would have done。"
+    }
   },
   {
     "id": "q201",
@@ -2057,7 +3838,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：or 引出与现在此刻事实相反的含蓄虚拟，用 would be standing。"
     ],
     "exp": "or 引出与现在此刻事实相反的含蓄虚拟，用 would be standing。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：留意句首固定句式或介词短语暗含的相反假设，确定对应的时间档位。",
+      "提示 2（破题线索）：幸亏提前订了票，否则【此刻 right now】就得排长队了！",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（stood）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（had stood）【排除】：虚拟时间档位错位（把现在/将来虚拟误用成了过去完成虚拟，或反之）。",
+      "C 项（will stand）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "D 项（would be standing）【正确】：or 引出与现在此刻事实相反的含蓄虚拟，用 would be standing。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Without the firefighters' timely rescue last night, the warehouse ____ to the ground.",
+      "opts": [
+        "A. would burn",
+        "B. would have burned"
+      ],
+      "ans": 1,
+      "exp": "Without...last night 为与过去事实相反的含蓄虚拟，主句用 would have done。"
+    }
   },
   {
     "id": "q202",
@@ -2081,7 +3883,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：祈使句 + or + will do 表示面向未来的真实警告（并非违背既定事实的虚拟），故用一般将来时被动 will be！"
     ],
     "exp": "祈使句 + or + will do 表示面向未来的真实警告（并非违背既定事实的虚拟），故用一般将来时被动 will be！",
-    "trap": "exception"
+    "trap": "exception",
+    "hints": [
+      "提示 1（方向指引）：留意句首固定句式或介词短语暗含的相反假设，确定对应的时间档位。",
+      "提示 2（破题线索）：【严格区分真实警告 vs 含蓄虚拟】“戴上头盔，否则你会被交警罚款”是事后懊悔还是事前真实警告？",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（would have been）【排除】：虚拟时间档位错位（把现在/将来虚拟误用成了过去完成虚拟，或反之）。",
+      "B 项（will be）【正确】：祈使句 + or + will do 表示面向未来的真实警告（并非违背既定事实的虚拟），故用一般将来时被动 will be！",
+      "C 项（were）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（had been）【排除】：虚拟时间档位错位（把现在/将来虚拟误用成了过去完成虚拟，或反之）。"
+    ],
+    "wrongDiag": "机械套用了考场速记口诀，忽略了该语法点在严格英语语法中的前提条件或特殊语境例外。",
+    "followUp": {
+      "q": "变形自测：Without the firefighters' timely rescue last night, the warehouse ____ to the ground.",
+      "opts": [
+        "A. would burn",
+        "B. would have burned"
+      ],
+      "ans": 1,
+      "exp": "Without...last night 为与过去事实相反的含蓄虚拟，主句用 would have done。"
+    }
   },
   {
     "id": "q203",
@@ -2105,7 +3928,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：with / under 介词短语代替过去条件句，主句用 could have reached。"
     ],
     "exp": "with / under 介词短语代替过去条件句，主句用 could have reached。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：留意句首固定句式或介词短语暗含的相反假设，确定对应的时间档位。",
+      "提示 2（破题线索）：Under...conditions last week（要是上周天气条件更好一点 = 含蓄过去虚拟）。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（could reach）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（could have reached）【正确】：with / under 介词短语代替过去条件句，主句用 could have reached。",
+      "C 项（can reach）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（reached）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Without the firefighters' timely rescue last night, the warehouse ____ to the ground.",
+      "opts": [
+        "A. would burn",
+        "B. would have burned"
+      ],
+      "ans": 1,
+      "exp": "Without...last night 为与过去事实相反的含蓄虚拟，主句用 would have done。"
+    }
   },
   {
     "id": "q204",
@@ -2129,7 +3973,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：对过去含蓄虚拟，主句用 might have avoided。"
     ],
     "exp": "对过去含蓄虚拟，主句用 might have avoided。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：留意句首固定句式或介词短语暗含的相反假设，确定对应的时间档位。",
+      "提示 2（破题线索）：With a little more patience yesterday 暗含“昨天其实不够耐心”。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（might avoid）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（might have avoided）【正确】：对过去含蓄虚拟，主句用 might have avoided。",
+      "C 项（will avoid）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "D 项（avoided）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Without the firefighters' timely rescue last night, the warehouse ____ to the ground.",
+      "opts": [
+        "A. would burn",
+        "B. would have burned"
+      ],
+      "ans": 1,
+      "exp": "Without...last night 为与过去事实相反的含蓄虚拟，主句用 would have done。"
+    }
   },
   {
     "id": "q205",
@@ -2153,7 +4018,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：对现在事实相反的含蓄虚拟，主句用 would (+ be)。"
     ],
     "exp": "对现在事实相反的含蓄虚拟，主句用 would (+ be)。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：留意句首固定句式或介词短语暗含的相反假设，确定对应的时间档位。",
+      "提示 2（破题线索）：结合句末 now，如果没有这张语法表，我现在还会一头雾水。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（shall）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（can）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（will）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（would）【正确】：对现在事实相反的含蓄虚拟，主句用 would (+ be)。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Without the firefighters' timely rescue last night, the warehouse ____ to the ground.",
+      "opts": [
+        "A. would burn",
+        "B. would have burned"
+      ],
+      "ans": 1,
+      "exp": "Without...last night 为与过去事实相反的含蓄虚拟，主句用 would have done。"
+    }
   },
   {
     "id": "q206",
@@ -2177,7 +4063,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：should 不可省，故排除原形 stop，选一般过去时 stopped。"
     ],
     "exp": "should 不可省，故排除原形 stop，选一般过去时 stopped。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：留意句首固定句式或介词短语暗含的相反假设，确定对应的时间档位。",
+      "提示 2（破题线索）：It is high time that + 主语 + 一般过去时。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（has stopped）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（stops）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（stopped）【正确】：should 不可省，故排除原形 stop，选一般过去时 stopped。",
+      "D 项（stop）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Without the firefighters' timely rescue last night, the warehouse ____ to the ground.",
+      "opts": [
+        "A. would burn",
+        "B. would have burned"
+      ],
+      "ans": 1,
+      "exp": "Without...last night 为与过去事实相反的含蓄虚拟，主句用 would have done。"
+    }
   },
   {
     "id": "q207",
@@ -2201,7 +4108,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：对现在事实的含蓄虚拟，主句用 would + 原形 would come。"
     ],
     "exp": "对现在事实的含蓄虚拟，主句用 would + 原形 would come。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：留意句首固定句式或介词短语暗含的相反假设，确定对应的时间档位。",
+      "提示 2（破题线索）：But for electricity（要不是有电）+ today（对现代生活现状的相反假设）。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（would have come）【排除】：虚拟时间档位错位（把现在/将来虚拟误用成了过去完成虚拟，或反之）。",
+      "B 项（comes）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（came）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（would come）【正确】：对现在事实的含蓄虚拟，主句用 would + 原形 would come。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Without the firefighters' timely rescue last night, the warehouse ____ to the ground.",
+      "opts": [
+        "A. would burn",
+        "B. would have burned"
+      ],
+      "ans": 1,
+      "exp": "Without...last night 为与过去事实相反的含蓄虚拟，主句用 would have done。"
+    }
   },
   {
     "id": "q208",
@@ -2225,7 +4153,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：lest he (should) be late 省略 should 后直接用原形 be！"
     ],
     "exp": "lest he (should) be late 省略 should 后直接用原形 be！",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：留意句首固定句式或介词短语暗含的相反假设，确定对应的时间档位。",
+      "提示 2（破题线索）：lest（唯恐、免得）后接 (should) + 动词原形。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（is）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "B 项（was）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（would be）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（be）【正确】：lest he (should) be late 省略 should 后直接用原形 be！"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Without the firefighters' timely rescue last night, the warehouse ____ to the ground.",
+      "opts": [
+        "A. would burn",
+        "B. would have burned"
+      ],
+      "ans": 1,
+      "exp": "Without...last night 为与过去事实相反的含蓄虚拟，主句用 would have done。"
+    }
   },
   {
     "id": "q209",
@@ -2249,7 +4198,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：对现在情景的委婉推断/含蓄虚拟用 would (+ guess)。"
     ],
     "exp": "对现在情景的委婉推断/含蓄虚拟用 would (+ guess)。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：留意句首固定句式或介词短语暗含的相反假设，确定对应的时间档位。",
+      "提示 2（破题线索）：隐含条件“如果别人看她现在的样子，没人会猜到…”。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（would）【正确】：对现在情景的委婉推断/含蓄虚拟用 would (+ guess)。",
+      "B 项（did）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（had）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（was）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Without the firefighters' timely rescue last night, the warehouse ____ to the ground.",
+      "opts": [
+        "A. would burn",
+        "B. would have burned"
+      ],
+      "ans": 1,
+      "exp": "Without...last night 为与过去事实相反的含蓄虚拟，主句用 would have done。"
+    }
   },
   {
     "id": "q210",
@@ -2266,14 +4236,35 @@ window.WSG_BANKS["2"] = [
       "D. sent"
     ],
     "ans": 0,
-    "hint": "didn't have + last month + otherwise。",
+    "hint": "didn't 【目标结构】 + last month + otherwise。",
     "steps": [
       "第一步（判虚拟类型）：识别 if 条件句、错综时间、省略倒装、wish/would rather、“贱命重要”或含蓄虚拟。",
       "第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。",
       "第三步（锁答案）：对过去含蓄虚拟，主句用 would have sent。"
     ],
     "exp": "对过去含蓄虚拟，主句用 would have sent。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：留意句首固定句式或介词短语暗含的相反假设，确定对应的时间档位。",
+      "提示 2（破题线索）：didn't 【目标结构】 + last month + otherwise。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（would have sent）【正确】：对过去含蓄虚拟，主句用 would have sent。",
+      "B 项（will send）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "C 项（would send）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（sent）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Without the firefighters' timely rescue last night, the warehouse ____ to the ground.",
+      "opts": [
+        "A. would burn",
+        "B. would have burned"
+      ],
+      "ans": 1,
+      "exp": "Without...last night 为与过去事实相反的含蓄虚拟，主句用 would have done。"
+    }
   },
   {
     "id": "q211",
@@ -2297,7 +4288,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：It is high time 从句系动词用过去式 were。"
     ],
     "exp": "It is high time 从句系动词用过去式 were。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：留意句首固定句式或介词短语暗含的相反假设，确定对应的时间档位。",
+      "提示 2（破题线索）：It's high time (that) you ____ in bed（系动词过去式）。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（are）【排除】：属于真实陈述语气形式，未能体现虚拟语气“时态往过去退一步”或 (should)+do 的语法要求。",
+      "B 项（were）【正确】：It is high time 从句系动词用过去式 were。",
+      "C 项（be）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（have been）【排除】：虚拟时间档位错位（把现在/将来虚拟误用成了过去完成虚拟，或反之）。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Without the firefighters' timely rescue last night, the warehouse ____ to the ground.",
+      "opts": [
+        "A. would burn",
+        "B. would have burned"
+      ],
+      "ans": 1,
+      "exp": "Without...last night 为与过去事实相反的含蓄虚拟，主句用 would have done。"
+    }
   },
   {
     "id": "q212",
@@ -2321,7 +4333,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：介词短语谈及过往努力，但主句明确带有 today 表现在状态结果，故主句用对现在虚拟 wouldn't be！"
     ],
     "exp": "介词短语谈及过往努力，但主句明确带有 today 表现在状态结果，故主句用对现在虚拟 wouldn't be！",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：留意句首固定句式或介词短语暗含的相反假设，确定对应的时间档位。",
+      "提示 2（破题线索）：注意句尾是 today（空间站今天不会在轨运行）！",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（isn't）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（wasn't）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（wouldn't be）【正确】：介词短语谈及过往努力，但主句明确带有 today 表现在状态结果，故主句用对现在虚拟 wouldn't be！",
+      "D 项（wouldn't have been）【排除】：虚拟时间档位错位（把现在/将来虚拟误用成了过去完成虚拟，或反之）。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Without the firefighters' timely rescue last night, the warehouse ____ to the ground.",
+      "opts": [
+        "A. would burn",
+        "B. would have burned"
+      ],
+      "ans": 1,
+      "exp": "Without...last night 为与过去事实相反的含蓄虚拟，主句用 would have done。"
+    }
   },
   {
     "id": "q213",
@@ -2333,7 +4366,7 @@ window.WSG_BANKS["2"] = [
     "q": "He backed up the file onto two USB drives for fear that the computer ____ crash.",
     "opts": [
       "A. should",
-      "B. might have",
+      "B. might",
       "C. would",
       "D. will"
     ],
@@ -2345,7 +4378,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：for fear that 从句标准虚拟用 should + do（或省略 should）。"
     ],
     "exp": "for fear that 从句标准虚拟用 should + do（或省略 should）。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：留意句首固定句式或介词短语暗含的相反假设，确定对应的时间档位。",
+      "提示 2（破题线索）：for fear that 固定虚拟搭配。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 【目标结构】 能否省略。"
+    ],
+    "optExps": [
+      "A 项（should）【正确】：for fear that 从句标准虚拟用 should + do（或省略 should）。",
+      "B 项（might）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（would）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "D 项（will）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Without the firefighters' timely rescue last night, the warehouse ____ to the ground.",
+      "opts": [
+        "A. would burn",
+        "B. would have burned"
+      ],
+      "ans": 1,
+      "exp": "Without...last night 为与过去事实相反的含蓄虚拟，主句用 would have done。"
+    }
   },
   {
     "id": "q214",
@@ -2369,7 +4423,28 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：对过去含蓄虚拟，主句用 could have set。"
     ],
     "exp": "对过去含蓄虚拟，主句用 could have set。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：留意句首固定句式或介词短语暗含的相反假设，确定对应的时间档位。",
+      "提示 2（破题线索）：Given another chance last year（如果去年再给一次机会 = 过去分词短语作含蓄虚拟条件）。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（can set）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（set）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（could have set）【正确】：对过去含蓄虚拟，主句用 could have set。",
+      "D 项（could set）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Without the firefighters' timely rescue last night, the warehouse ____ to the ground.",
+      "opts": [
+        "A. would burn",
+        "B. would have burned"
+      ],
+      "ans": 1,
+      "exp": "Without...last night 为与过去事实相反的含蓄虚拟，主句用 would have done。"
+    }
   },
   {
     "id": "q215",
@@ -2393,6 +4468,27 @@ window.WSG_BANKS["2"] = [
       "第三步（锁答案）：对现在情况的含蓄虚拟，主句用 would (+ think)。"
     ],
     "exp": "对现在情况的含蓄虚拟，主句用 would (+ think)。",
-    "trap": "tense"
+    "trap": "tense",
+    "hints": [
+      "提示 1（方向指引）：留意句首固定句式或介词短语暗含的相反假设，确定对应的时间档位。",
+      "提示 2（破题线索）：不定式 To hear him speak... 充当含蓄虚拟条件（= If you heard him speak...）。",
+      "提示 3（排错聚焦）：第二步（核对严格边界）：排查真实条件句、suggest/insist 陈述语气例外及 should 能否省略。"
+    ],
+    "optExps": [
+      "A 项（had）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "B 项（shall）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。",
+      "C 项（would）【正确】：对现在情况的含蓄虚拟，主句用 would (+ think)。",
+      "D 项（will）【排除】：虚拟语气时态退格档位、倒装助动词选择或情态动词结构不匹配。"
+    ],
+    "wrongDiag": "时间坐标或参照基点定位偏差：混淆了“具体过去时点（did）”、“延续至今时段（have done）”与“过去之先（had done）”。",
+    "followUp": {
+      "q": "变形自测：Without the firefighters' timely rescue last night, the warehouse ____ to the ground.",
+      "opts": [
+        "A. would burn",
+        "B. would have burned"
+      ],
+      "ans": 1,
+      "exp": "Without...last night 为与过去事实相反的含蓄虚拟，主句用 would have done。"
+    }
   }
 ];

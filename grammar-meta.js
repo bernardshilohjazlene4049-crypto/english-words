@@ -1,19 +1,62 @@
-// 词迹语法模块 · 核心考点目录与按需分块加载器 (grammar-meta.js)
+// 词迹语法学习系统 V3.0 · 统一版本控制、核心考点目录与带超时重试的按需加载器 (grammar-meta.js)
+window.WSG_ASSET_VERSION = "3.0.0";
+
 window.WSG_META = {
-  version: "2.0.0",
+  version: "3.0.0",
+  schemaVersion: 3,
   totalClozes: 574,
   totalQuestions: 500,
   handoutQuestions: 18,
   authoredQuestions: 482,
+  totalDrills: 36,
   wrongReasons: [
     { id: "tense", label: "时态/时间标志误判", color: "#0284c7" },
     { id: "voice", label: "主动/被动逻辑混淆", color: "#7c3aed" },
     { id: "clause", label: "从句类型/所缺成分漏判", color: "#059669" },
     { id: "exception", label: "死背口诀忽略严格语法例外", color: "#d97706" },
     { id: "agreement", label: "主谓单复数/语序看错", color: "#e11d48" },
-    { id: "careless", label: "审题粗心/固定搭配记混", color: "#64748b" }
+    { id: "careless", label: "审题粗心/固定搭配记混", color: "#64748b" },
+    { id: "unanswered", label: "考试未作答/时间不足", color: "#9333ea" }
   ],
   srsIntervalsDays: [0, 1, 2, 4, 7, 15],
+  foundationModule: {
+  "id": "0",
+  "code": "mod-0",
+  "kicker": "专项零 · 零基础破冰先导课",
+  "title": "零基础先导课",
+  "en": "Foundation: POS, Verbs & Basic Sentences",
+  "tint": "emerald",
+  "summary": "从零讲透十大词性、人称代词、be动词、实义动词五态变形（含lie/lay辨析）、五大基本句型与陈述语序。",
+  "clozeCount": 0,
+  "questionCount": 0,
+  "diagramId": "svo-analyzer",
+  "kps": [
+    {
+      "id": "kp-0-1",
+      "title": "十大词性全景认知与代词格位表",
+      "short": "词性与代词体系",
+      "clozeCount": 0
+    },
+    {
+      "id": "kp-0-2",
+      "title": "be动词家族与实义动词五态变形规则",
+      "short": "be动词与动词变形",
+      "clozeCount": 0
+    },
+    {
+      "id": "kp-0-3",
+      "title": "句子成分入门与五大基本简单句型",
+      "short": "成分与五大句型",
+      "clozeCount": 0
+    },
+    {
+      "id": "kp-0-4",
+      "title": "否定/疑问助动词法则与陈述语序原理",
+      "short": "助动词与陈述语序",
+      "clozeCount": 0
+    }
+  ]
+},
   modules: [
   {
     "id": "1",
@@ -219,34 +262,104 @@ window.WSG_MODULES = window.WSG_MODULES || {};
 window.WSG_BANKS = window.WSG_BANKS || {};
 window._wsgLoading = window._wsgLoading || {};
 
-window.WSG_loadScript = function(src) {
-  if (window._wsgLoading[src]) return window._wsgLoading[src];
-  window._wsgLoading[src] = new Promise((resolve, reject) => {
+// Fisher–Yates unbiased shuffle algorithm
+window.WSG_shuffle = function(arr) {
+  const a = Array.isArray(arr) ? [...arr] : [];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const tmp = a[i];
+    a[i] = a[j];
+    a[j] = tmp;
+  }
+  return a;
+};
+
+// Resilient dynamic script loader with unified cache-busting version, timeout & retry backoff
+window.WSG_loadScript = function(baseSrc, opts) {
+  const options = Object.assign({ timeoutMs: 8000, retries: 2 }, opts || {});
+  const ver = window.WSG_ASSET_VERSION || "3.0.0";
+  const versionedSrc = baseSrc.includes("?") ? baseSrc : (baseSrc + "?v=" + encodeURIComponent(ver));
+
+  if (window._wsgLoading[versionedSrc]) return window._wsgLoading[versionedSrc];
+
+  const attemptLoad = (remaining) => new Promise((resolve, reject) => {
+    let settled = false;
     const s = document.createElement("script");
-    s.src = src;
+    s.src = versionedSrc;
     s.async = true;
-    s.onload = () => resolve(true);
-    s.onerror = () => {
-      delete window._wsgLoading[src];
-      reject(new Error("加载模块失败: " + src));
+
+    const timer = setTimeout(() => {
+      if (settled) return;
+      settled = true;
+      s.onload = s.onerror = null;
+      if (s.parentNode) s.parentNode.removeChild(s);
+      const err = new Error("资源加载超时 (" + baseSrc + ")");
+      err.code = "LOAD_TIMEOUT";
+      reject(err);
+    }, options.timeoutMs);
+
+    s.onload = () => {
+      if (settled) return;
+      settled = true;
+      clearTimeout(timer);
+      resolve(true);
     };
+
+    s.onerror = () => {
+      if (settled) return;
+      settled = true;
+      clearTimeout(timer);
+      if (s.parentNode) s.parentNode.removeChild(s);
+      const err = new Error("网络异常或静态分块缺失 (" + baseSrc + ")");
+      err.code = "LOAD_ERROR";
+      reject(err);
+    };
+
     document.head.appendChild(s);
+  }).catch(err => {
+    if (remaining > 0) {
+      const delay = (options.retries - remaining + 1) * 450;
+      return new Promise(r => setTimeout(r, delay)).then(() => attemptLoad(remaining - 1));
+    }
+    delete window._wsgLoading[versionedSrc];
+    throw err;
   });
-  return window._wsgLoading[src];
+
+  window._wsgLoading[versionedSrc] = attemptLoad(options.retries);
+  return window._wsgLoading[versionedSrc];
 };
 
 window.WSG_ensureModule = function(modId) {
-  if (window.WSG_MODULES[modId]) return Promise.resolve(window.WSG_MODULES[modId]);
-  return window.WSG_loadScript("./grammar-mod-" + modId + ".js").then(() => window.WSG_MODULES[modId]);
+  const id = String(modId);
+  if (window.WSG_MODULES[id]) return Promise.resolve(window.WSG_MODULES[id]);
+  return window.WSG_loadScript("./grammar-mod-" + id + ".js").then(() => {
+    if (!window.WSG_MODULES[id]) throw new Error("章节数据未注册: mod-" + id);
+    return window.WSG_MODULES[id];
+  });
 };
 
 window.WSG_ensureBank = function(modId) {
-  if (window.WSG_BANKS[modId]) return Promise.resolve(window.WSG_BANKS[modId]);
-  return window.WSG_loadScript("./grammar-bank-" + modId + ".js").then(() => window.WSG_BANKS[modId]);
+  const id = String(modId);
+  if (window.WSG_BANKS[id]) return Promise.resolve(window.WSG_BANKS[id]);
+  return window.WSG_loadScript("./grammar-bank-" + id + ".js").then(() => {
+    if (!window.WSG_BANKS[id]) throw new Error("题库数据未注册: bank-" + id);
+    return window.WSG_BANKS[id];
+  });
 };
 
-window.WSG_ensureAllModules = function() {
-  return Promise.all(["1", "2", "3", "4", "5"].map(id => window.WSG_ensureModule(id)));
+window.WSG_ensureDrills = function() {
+  if (window.WSG_DRILLS) return Promise.resolve(window.WSG_DRILLS);
+  return window.WSG_loadScript("./grammar-drills.js").then(() => window.WSG_DRILLS);
+};
+
+window.WSG_ensureVocab = function() {
+  if (window.WS_VOCAB_LIST) return Promise.resolve(window.WS_VOCAB_LIST);
+  return window.WSG_loadScript("./vocab-dict.js").then(() => window.WS_VOCAB_LIST);
+};
+
+window.WSG_ensureAllModules = function(includeZero = false) {
+  const ids = includeZero ? ["0", "1", "2", "3", "4", "5"] : ["1", "2", "3", "4", "5"];
+  return Promise.all(ids.map(id => window.WSG_ensureModule(id)));
 };
 
 window.WSG_ensureAllBanks = function() {

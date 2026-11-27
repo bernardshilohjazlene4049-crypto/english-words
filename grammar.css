@@ -791,3 +791,199 @@ tr:last-child td { border-bottom: 0; }
   #printSheet .cloze { color: #047857 !important; background: none !important; border-bottom: 1px solid #047857; border-radius: 0; padding: 0 2px; }
   #printSheet .tl-vertical, #printSheet .svg-pill-bar, #printSheet .master-btn { display: none !important; }
 }
+
+/* === V3.0 UPGRADE STYLES === */
+/* Persistent Active Exam Floating Banner */
+.exam-float-bar {
+  max-width: 1280px;
+  margin: 10px auto 0;
+  padding: 0 20px;
+}
+.exam-float-inner {
+  background: linear-gradient(135deg, rgba(2, 132, 199, 0.16), var(--glass-strong));
+  border: 1.5px solid var(--ocean);
+  border-radius: 16px;
+  padding: 10px 16px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  box-shadow: var(--shadow);
+}
+
+/* Unanswered Palette & Status Badges */
+.q-num-btn.unans {
+  background: rgba(147, 51, 234, 0.16);
+  border-color: #9333ea;
+  color: var(--ink);
+}
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 750;
+}
+.status-pill.right { background: rgba(16, 185, 129, 0.18); color: var(--green-deep); }
+.status-pill.wrong { background: rgba(239, 68, 68, 0.15); color: var(--danger); }
+.status-pill.unans { background: rgba(147, 51, 234, 0.16); color: #7e22ce; }
+body.dark .status-pill.unans { color: #d8b4fe; }
+
+/* Clickable English Word Token (Vocabulary Lookup Integration) */
+.w-tok {
+  cursor: pointer;
+  border-bottom: 1px dotted rgba(5, 150, 105, 0.45);
+  border-radius: 4px;
+  padding: 0 1px;
+  transition: background .14s, color .14s;
+}
+.w-tok:hover, .w-tok:focus-visible {
+  background: var(--soft);
+  color: var(--green-deep);
+}
+body.exam-locked .w-tok {
+  cursor: inherit;
+  border-bottom-color: transparent;
+  pointer-events: none;
+}
+
+/* Word Lookup Popover */
+.word-pop-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 130;
+  background: rgba(8, 18, 28, 0.28);
+  display: grid;
+  place-items: center;
+  padding: 16px;
+}
+.word-pop-card {
+  width: 100%;
+  max-width: 420px;
+  background: var(--glass-strong);
+  backdrop-filter: blur(18px) saturate(160%);
+  -webkit-backdrop-filter: blur(18px) saturate(160%);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 18px 20px;
+  box-shadow: 0 22px 48px -12px rgba(0, 0, 0, 0.34);
+}
+
+/* Per-Option Analysis & Follow-Up Variant Box */
+.opt-exp-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 10px;
+}
+.opt-exp-item {
+  font-size: 13px;
+  padding: 7px 11px;
+  border-radius: 10px;
+  background: var(--glass);
+  border: 1px solid var(--line);
+}
+.opt-exp-item.is-ans {
+  border-color: rgba(16, 185, 129, 0.42);
+  background: rgba(16, 185, 129, 0.10);
+}
+.followup-box {
+  margin-top: 12px;
+  padding: 12px 14px;
+  border-radius: 13px;
+  background: linear-gradient(135deg, rgba(14, 165, 233, 0.08), var(--glass));
+  border: 1px solid rgba(14, 165, 233, 0.28);
+}
+
+/* 6 Interactive Drill Lab Styles */
+.drill-type-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.drill-type-btn {
+  text-align: left;
+  padding: 12px 14px;
+  border-radius: 15px;
+  border: 1.5px solid var(--line);
+  background: var(--glass);
+  color: var(--ink);
+  cursor: pointer;
+  transition: border-color .15s, background .15s;
+}
+.drill-type-btn.active {
+  border-color: var(--green);
+  background: var(--soft);
+}
+.token-bank, .drop-zone {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 12px;
+  min-height: 56px;
+  border-radius: 14px;
+  border: 1.5px dashed var(--line-strong);
+  background: var(--glass-sub);
+  align-items: center;
+}
+.drag-chip, .seg-chip {
+  appearance: none;
+  border: 1.5px solid var(--line-strong);
+  background: var(--glass-strong);
+  color: var(--ink);
+  padding: 9px 14px;
+  min-height: 44px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 650;
+  cursor: pointer;
+  user-select: none;
+}
+.drag-chip:hover, .seg-chip:hover { border-color: var(--green); }
+.seg-chip.picked-ok { border-color: #10b981; background: rgba(16, 185, 129, 0.18); }
+.seg-chip.picked-bad { border-color: #ef4444; background: rgba(239, 68, 68, 0.15); }
+.fill-input {
+  min-height: 44px;
+  padding: 8px 14px;
+  border-radius: 12px;
+  border: 1.5px solid var(--line-strong);
+  background: var(--glass-strong);
+  color: var(--ink);
+  font-size: 15px;
+  font-family: "SF Mono", Consolas, monospace;
+  width: min(100%, 320px);
+}
+
+/* Error Recovery & SW Update Toast */
+.load-err-card {
+  border: 1.5px solid rgba(220, 38, 38, 0.36);
+  background: rgba(220, 38, 38, 0.06);
+  border-radius: 18px;
+  padding: 24px;
+  text-align: center;
+}
+.sw-toast {
+  position: fixed;
+  right: 16px;
+  bottom: 20px;
+  z-index: 150;
+  background: var(--glass-strong);
+  border: 1.5px solid var(--green);
+  border-radius: 16px;
+  padding: 12px 16px;
+  box-shadow: 0 16px 38px -10px rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+}
+
+@media (max-width: 768px) {
+  .exam-float-bar { padding: 0 12px; }
+  .drill-type-grid { grid-template-columns: 1fr; }
+  .sw-toast { left: 12px; right: 12px; bottom: calc(74px + env(safe-area-inset-bottom, 0px)); justify-content: space-between; }
+}

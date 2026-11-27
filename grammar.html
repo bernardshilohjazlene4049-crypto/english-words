@@ -4,8 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-<title>辽宁专升本英语 · 语法学习控制台与500题闯关系统</title>
-<link rel="stylesheet" href="./grammar.css">
+<title>辽宁专升本英语 · 语法学习系统 V3.0（零基础先导+500题+3000词联动）</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23059669'/%3E%3Ctext x='32' y='44' font-size='34' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='bold'%3E%E8%AF%AD%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="./grammar.css?v=3.0.0">
 </head>
 <body>
 <a class="skip-link" href="#appMain">跳至主要学习内容</a>
@@ -16,14 +17,14 @@
     <div class="brand">
       <div class="logo" aria-hidden="true">语</div>
       <div>
-        <h1>辽宁专升本 · 英语语法学习系统</h1>
-        <div class="sub">5大专项 · 574处挖空 · 零基础图解 · 500题分级题库 · 间隔复习</div>
+        <h1>辽宁专升本 · 英语语法学习系统 <span style="font-size:12px;font-weight:750;color:var(--green)">V3.0</span></h1>
+        <div class="sub">专项零先导 + 五大专项574挖空 + 6类实训 + 500题库 + 3000词点词即查</div>
       </div>
     </div>
     <div class="top-tools" role="toolbar" aria-label="全局学习工具栏">
       <a class="btn soft" href="./index.html" aria-label="返回词迹3000词背单词主页">← 返回背单词</a>
-      <button class="btn" id="beginnerToggle" aria-pressed="false" title="开启或关闭零基础六步精讲模式">🌱 零基础模式</button>
-      <button class="btn" id="maskToggle" aria-pressed="false" title="开启或关闭574处讲义挖空遮罩背诵">🙈 挖空背诵</button>
+      <button class="btn" id="beginnerToggle" aria-pressed="false" title="开启零基础模式：从专项零起步并自动匹配基础难度题">🌱 零基础模式</button>
+      <button class="btn" id="maskToggle" aria-pressed="false" title="开启或关闭讲义挖空遮罩背诵">🙈 挖空背诵</button>
       <button class="btn" id="printMenuBtn" aria-haspopup="dialog" title="打印讲义、无答案试卷或答案解析">🖨 打印导出</button>
       <button class="btn" id="motionToggle" aria-pressed="false" title="切换减少动态效果无障碍模式">🎞 减弱动效</button>
       <button class="btn" id="themeBtn" aria-pressed="false" title="切换深空暗色或冰晶浅色模式">🌙 深空</button>
@@ -36,13 +37,16 @@
   </div>
 </header>
 
+<div id="activeExamFloatBar" class="exam-float-bar" style="display:none" role="region" aria-label="进行中的模拟考试状态栏"></div>
+
 <div class="main-nav-strip">
   <nav class="view-tabs" id="desktopNav" aria-label="语法系统主导航">
     <button class="view-tab active" data-view="dashboard" aria-current="page">🏠 学习控制台</button>
-    <button class="view-tab" data-view="learn">📖 五大专项讲义</button>
-    <button class="view-tab" data-view="practice">✍️ 题库与模拟考 <span class="badge-cnt" id="navBankCnt">500</span></button>
-    <button class="view-tab" data-view="mistakes">📕 错题与间隔复习 <span class="badge-cnt" id="navDueCnt">0</span></button>
-    <button class="view-tab" data-view="report">📊 学习报告</button>
+    <button class="view-tab" data-view="learn">📖 讲义(含专项零)</button>
+    <button class="view-tab" data-view="drills">🎮 交互实训工坊</button>
+    <button class="view-tab" data-view="practice">✍️ 500题与模拟考 <span class="badge-cnt" id="navBankCnt">500</span></button>
+    <button class="view-tab" data-view="mistakes">📕 错题与复习 <span class="badge-cnt" id="navDueCnt">0</span></button>
+    <button class="view-tab" data-view="report">📊 词法统一报告</button>
   </nav>
   <div class="global-search-bar" role="search">
     <input id="globalSearchInput" class="search-input" type="search" aria-label="搜索语法考点、口诀或题库单题" placeholder="搜考点 / 口诀 / 题目（如：厕所没水、TAG、就近、had studied…）">
@@ -57,17 +61,20 @@
 
 <nav class="mobile-dock" id="mobileDock" aria-label="手机端底部导航">
   <button class="dock-btn active" data-view="dashboard" aria-current="page"><span class="ico" aria-hidden="true">🏠</span><span>控制台</span></button>
-  <button class="dock-btn" data-view="learn"><span class="ico" aria-hidden="true">📖</span><span>专项</span></button>
+  <button class="dock-btn" data-view="learn"><span class="ico" aria-hidden="true">📖</span><span>讲义</span></button>
+  <button class="dock-btn" data-view="drills"><span class="ico" aria-hidden="true">🎮</span><span>实训</span></button>
   <button class="dock-btn" data-view="practice"><span class="ico" aria-hidden="true">✍️</span><span>刷题</span></button>
   <button class="dock-btn" data-view="mistakes"><span class="ico" aria-hidden="true">📕</span><span>错题</span></button>
   <button class="dock-btn" data-view="report"><span class="ico" aria-hidden="true">📊</span><span>报告</span></button>
 </nav>
 
+<div id="wordPopoverHost"></div>
 <div id="modalHost"></div>
+<div id="swUpdateToast" style="display:none" role="alert"></div>
 <section id="printSheet" aria-hidden="true"></section>
 
-<script src="./grammar-anime.min.js"></script>
-<script src="./grammar-meta.js"></script>
-<script src="./grammar-app.js"></script>
+<script src="./grammar-anime.min.js?v=3.0.0"></script>
+<script src="./grammar-meta.js?v=3.0.0"></script>
+<script src="./grammar-app.js?v=3.0.0"></script>
 </body>
 </html>
