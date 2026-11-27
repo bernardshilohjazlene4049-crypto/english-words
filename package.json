@@ -1,0 +1,11 @@
+{
+  "name": "english-words-grammar-v3",
+  "version": "3.0.0",
+  "private": true,
+  "description": "辽宁专升本英语 · 3000核心词与语法学习系统 V3.0",
+  "scripts": {
+    "validate": "node scripts/validate-grammar-bank.mjs",
+    "test": "node tests/grammar-e2e.spec.mjs",
+    "daily-words": "node scripts/update-daily-words.mjs"
+  }
+}
